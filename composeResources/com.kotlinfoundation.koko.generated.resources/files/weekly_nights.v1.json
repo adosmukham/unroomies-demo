@@ -1,0 +1,269 @@
+{
+  "version": 1,
+  "nights": [
+    {
+      "id": "wn_01",
+      "theme": "off_duty",
+      "theme_display": "Off duty",
+      "prompt_together": "Big light off for the last hour tonight. Lamps only, and whatever conversation the dark end of the evening produces.",
+      "prompt_solo": "Turn the big light off tonight and put a lamp on instead. Sit in it.",
+      "why_line": "A room lit for chores and a room lit for company are not the same room.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_02",
+      "theme": "off_duty",
+      "theme_display": "Off duty",
+      "prompt_together": "Eat tonight somewhere that isn’t the usual seat. The floor, the back steps, the room nobody uses.",
+      "prompt_solo": "Move tonight’s meal somewhere that isn’t the usual seat, and call them over to it.",
+      "why_line": "Most couples have one chair each and years of the same view.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_03",
+      "theme": "off_duty",
+      "theme_display": "Off duty",
+      "prompt_together": "Give tonight a name before it starts. A quiet one, a silly one, an early one. Then run it that way.",
+      "prompt_solo": "Decide what kind of evening you want tonight to be, and steer it there without announcing the plan.",
+      "why_line": "An evening nobody names gets spent on whatever asks loudest.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_04",
+      "theme": "off_duty",
+      "theme_display": "Off duty",
+      "prompt_together": "Fifteen minutes tonight where neither of you is allowed to be useful. Nothing gets tidied, fixed or prepared.",
+      "prompt_solo": "Take fifteen minutes tonight where you refuse to be useful, in the same room as them.",
+      "why_line": "Being useful is how two people share a house for a decade and miss each other.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_05",
+      "theme": "off_duty",
+      "theme_display": "Off duty",
+      "prompt_together": "Watch the thing you’ve both been saving. No folding, no second screen, no phones face up.",
+      "prompt_solo": "Start the thing you’ve both been meaning to watch and leave your phone in another room.",
+      "why_line": "Half-watching together is just sitting near somebody.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_06",
+      "theme": "off_duty",
+      "theme_display": "Off duty",
+      "prompt_together": "One of you reads aloud for ten minutes. A chapter, an article, the worst reviews of a restaurant you like.",
+      "prompt_solo": "Read them something out loud tonight because it’s good, not because they need to know it.",
+      "why_line": "Being read to is the oldest way of being kept company.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_07",
+      "theme": "notice",
+      "theme_display": "Notice",
+      "prompt_together": "Each of you name one thing you’re looking forward to this week. Small is allowed. Small is normal.",
+      "prompt_solo": "Ask what they’re looking forward to this week, and remember the answer.",
+      "why_line": "People stop mentioning what they want when nobody asks about it.",
+      "duration_min": 5,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_08",
+      "theme": "notice",
+      "theme_display": "Notice",
+      "prompt_together": "Guess out loud how their week has actually been going, before they tell you. Then find out how close you were.",
+      "prompt_solo": "Say what you think their week has been like and let them correct you.",
+      "why_line": "A guess is affection with the work shown.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_09",
+      "theme": "notice",
+      "theme_display": "Notice",
+      "prompt_together": "Ask about somebody in their week you never hear about. A coworker, a neighbor, whoever keeps coming up.",
+      "prompt_solo": "Ask about one of the people in their days you’ve never actually asked about.",
+      "why_line": "Half of anyone’s life happens among people the other half never meets.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_10",
+      "theme": "notice",
+      "theme_display": "Notice",
+      "prompt_together": "Find out what each of you is in the middle of right now. A book, a project, a slow argument with the insurance company.",
+      "prompt_solo": "Ask what they’re halfway through at the moment, then ask how they want it to end.",
+      "why_line": "Everyone is halfway through something, and nobody mentions it unless asked.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_11",
+      "theme": "notice",
+      "theme_display": "Notice",
+      "prompt_together": "Ask what they’ve changed their mind about lately. A person, a plan, a brand of coffee. Anything counts.",
+      "prompt_solo": "Ask what they’ve stopped liking lately, or come around to.",
+      "why_line": "People quietly revise themselves and rarely get asked about the edits.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_12",
+      "theme": "notice",
+      "theme_display": "Notice",
+      "prompt_together": "Work out what time tonight each of you finally stops being on duty. Be in the same room when it happens.",
+      "prompt_solo": "Notice the moment tonight when they stop being on duty, and be nearby for it.",
+      "why_line": "There is a point in every evening when the day lets go, and theirs is worth knowing.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_13",
+      "theme": "play",
+      "theme_display": "Play",
+      "prompt_together": "Plan the trip you’re not taking. Ten minutes, imaginary budget, real arguing about the itinerary.",
+      "prompt_solo": "Ask where they’d go if a free week appeared out of nowhere, and plan it properly with them.",
+      "why_line": "Deciding things together is fun long before anything gets booked.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_14",
+      "theme": "play",
+      "theme_display": "Play",
+      "prompt_together": "Pass notes on the same sofa for ten minutes. Paper, nonsense only.",
+      "prompt_solo": "Pass them a pointless note from across the room and see how long it keeps going.",
+      "why_line": "Couples pass notes at the start, then only grocery lists.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_15",
+      "theme": "play",
+      "theme_display": "Play",
+      "prompt_together": "Find the worst photograph of yourself on your phone and show them. See if they can beat it.",
+      "prompt_solo": "Show them the worst picture of yourself you can find and ask whether they can do worse.",
+      "why_line": "Being unimpressive on purpose is a kind of trust.",
+      "duration_min": 5,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_16",
+      "theme": "play",
+      "theme_display": "Play",
+      "prompt_together": "One of you names a year you were both around for. The other says where you lived and what you were like then. Swap.",
+      "prompt_solo": "Name a year and see what they remember about the two of you in it.",
+      "why_line": "You have a shared archive and almost never open it.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_17",
+      "theme": "play",
+      "theme_display": "Play",
+      "prompt_together": "Two truths and a lie about your week, each. The other has to spot the lie.",
+      "prompt_solo": "Tell them three things about your week, one of them invented, and see if they catch it.",
+      "why_line": "You have to listen properly to win, which is the whole trick.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_18",
+      "theme": "play",
+      "theme_display": "Play",
+      "prompt_together": "Ask each other three silly questions, and guess each answer before it comes. Make up new ones every time. Points for nothing.",
+      "prompt_solo": "Guess their answer to something silly before you ask it, then ask.",
+      "why_line": "Being predicted correctly is oddly flattering. So is being surprising.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_19",
+      "theme": "small_repair",
+      "theme_display": "Small repair",
+      "prompt_together": "Thank each other for one thing so reliable it stopped getting mentioned.",
+      "prompt_solo": "Say thank you tonight for something they always do and never get told about.",
+      "why_line": "The dependable things are the first to go invisible.",
+      "duration_min": 5,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_20",
+      "theme": "small_repair",
+      "theme_display": "Small repair",
+      "prompt_together": "Two minutes for the small stuff. One sentence each about anything minor from this week, and then it’s closed. Nothing to say is a fine answer.",
+      "prompt_solo": "Say the small thing you’ve been carrying from this week, once and lightly, then leave it there.",
+      "why_line": "Most of what curdles between two people was small and easily said at the time.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_21",
+      "theme": "small_repair",
+      "theme_display": "Small repair",
+      "prompt_together": "Ask each other for a favor you’d normally just do yourself.",
+      "prompt_solo": "Ask them for something small you’d usually handle alone.",
+      "why_line": "Asking is a quiet compliment. It says you expect a yes.",
+      "duration_min": 5,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_22",
+      "theme": "small_repair",
+      "theme_display": "Small repair",
+      "prompt_together": "Two sentences each: one thing that went better than expected this week, one that didn’t. Neither is a problem to solve tonight.",
+      "prompt_solo": "Tell them how your week actually went, the good half and the other half, and ask for nothing.",
+      "why_line": "Long-term couples get very good at fixing each other’s weeks and out of practice at hearing them.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_23",
+      "theme": "small_repair",
+      "theme_display": "Small repair",
+      "prompt_together": "Take one thing off the other’s week. Do it, then say it’s handled so they can stop carrying it.",
+      "prompt_solo": "Quietly take one job off their week, then tell them it’s done.",
+      "why_line": "Carrying a task is most of the work. The task itself is usually ten minutes.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "wn_24",
+      "theme": "small_repair",
+      "theme_display": "Small repair",
+      "prompt_together": "Say to each other the good thing you’d say about them to somebody else. Out loud, tonight, no occasion.",
+      "prompt_solo": "The next good thing you catch yourself thinking about them, say it instead of keeping it.",
+      "why_line": "Most people praise their partner most accurately when their partner is out of the room.",
+      "duration_min": 5,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    }
+  ]
+}

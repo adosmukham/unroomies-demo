@@ -1,0 +1,3664 @@
+{
+  "version": 2,
+  "rituals": [
+    {
+      "id": "lt_d01",
+      "pattern": "logistics_trap",
+      "day": 1,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "settle",
+      "energy": "normal",
+      "prompt_together": "Same room, screens off. Sit down for ten minutes with the house off the table. Anything else is fair game. If it drifts, say “later” and move on.",
+      "prompt_solo": "Same room, screens off. Sit with them for ten minutes and talk about anything but the house. If it drifts, say “later” and move on.",
+      "beats_together": [
+        "Same room, screens off.",
+        "Sit down for ten minutes with the house off the table. Anything else is fair game.",
+        "If it drifts, say “later” and move on."
+      ],
+      "beats_solo": [
+        "Same room, screens off.",
+        "Sit with them for ten minutes and talk about anything but the house.",
+        "If it drifts, say “later” and move on."
+      ],
+      "after_line": "Ten minutes where nothing needed doing.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d02",
+      "pattern": "logistics_trap",
+      "day": 2,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "see",
+      "energy": "normal",
+      "prompt_together": "Whenever you cross paths tonight. Tell them one thing you saw them do today that nobody asked them to do. Not a job. Something else.",
+      "prompt_solo": "Whenever you cross paths tonight. Tell them one thing you saw them do today that wasn’t for the house. Not a job. Something else.",
+      "beats_together": [
+        "Whenever you cross paths tonight.",
+        "Tell them one thing you saw them do today that nobody asked them to do.",
+        "Not a job. Something else."
+      ],
+      "beats_solo": [
+        "Whenever you cross paths tonight.",
+        "Tell them one thing you saw them do today that wasn’t for the house.",
+        "Not a job. Something else."
+      ],
+      "after_line": "Nobody asked them to do it, and somebody noticed.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d03",
+      "pattern": "logistics_trap",
+      "day": 3,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "make",
+      "energy": "tiny",
+      "prompt_together": "Five minutes, kitchen. Make them the drink they’d make themselves, and put it down next to them.",
+      "prompt_solo": "Five minutes, kitchen. Make their usual and set it down beside them without a word.",
+      "beats_together": [
+        "Five minutes, kitchen.",
+        "Make them the drink they’d make themselves, and put it down next to them."
+      ],
+      "beats_solo": [
+        "Five minutes, kitchen.",
+        "Make their usual and set it down beside them without a word."
+      ],
+      "after_line": "One drink, made the way they like it.",
+      "duration_min": 5,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d04",
+      "pattern": "logistics_trap",
+      "day": 4,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "play",
+      "energy": "normal",
+      "prompt_together": "Sofa. Phones face down. Swap the silliest thing that happened to each of you today. Nothing about the house. Worst story wins nothing.",
+      "prompt_solo": "Sofa. Phones face down. Tell them the silliest thing from your day and see what they swap back. Worst story wins nothing.",
+      "beats_together": [
+        "Sofa. Phones face down.",
+        "Swap the silliest thing that happened to each of you today. Nothing about the house.",
+        "Worst story wins nothing."
+      ],
+      "beats_solo": [
+        "Sofa. Phones face down.",
+        "Tell them the silliest thing from your day and see what they swap back.",
+        "Worst story wins nothing."
+      ],
+      "after_line": "Two stories, and neither was about the house.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d05",
+      "pattern": "logistics_trap",
+      "day": 5,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "settle",
+      "energy": "tiny",
+      "prompt_together": "Sixty seconds. Turn the big light off, put one lamp on, and sit down in it together.",
+      "prompt_solo": "Sixty seconds. Turn the big light off and put a lamp on, then sit down near them.",
+      "beats_together": [
+        "Sixty seconds.",
+        "Turn the big light off, put one lamp on, and sit down in it together."
+      ],
+      "beats_solo": [
+        "Sixty seconds.",
+        "Turn the big light off and put a lamp on, then sit down near them."
+      ],
+      "after_line": "The light changed and neither of you had to say why.",
+      "duration_min": 5,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d06",
+      "pattern": "logistics_trap",
+      "day": 6,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "remember",
+      "energy": "normal",
+      "prompt_together": "Kitchen. Anything that plays music. Play one song each from the year you met, and say nothing over either of them. No skipping.",
+      "prompt_solo": "Kitchen. Anything that plays music. Put on a song from the year you met while they’re in the room, and leave it on. No skipping.",
+      "beats_together": [
+        "Kitchen. Anything that plays music.",
+        "Play one song each from the year you met, and say nothing over either of them.",
+        "No skipping."
+      ],
+      "beats_solo": [
+        "Kitchen. Anything that plays music.",
+        "Put on a song from the year you met while they’re in the room, and leave it on.",
+        "No skipping."
+      ],
+      "after_line": "A song from that year, played all the way through.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d07",
+      "pattern": "logistics_trap",
+      "day": 7,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "see",
+      "energy": "deep",
+      "prompt_together": "Sit down properly. No screens. Tell them something you liked about them early on and had stopped noticing. Rough is fine. Either of you can pass.",
+      "prompt_solo": "Sit down properly. No screens. Say the thing you liked about them at the start that you never say now. Rough is fine. Either of you can pass.",
+      "beats_together": [
+        "Sit down properly. No screens.",
+        "Tell them something you liked about them early on and had stopped noticing.",
+        "Rough is fine. Either of you can pass."
+      ],
+      "beats_solo": [
+        "Sit down properly. No screens.",
+        "Say the thing you liked about them at the start that you never say now.",
+        "Rough is fine. Either of you can pass."
+      ],
+      "after_line": "Some things about a person go quiet for years and are still true.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d08",
+      "pattern": "logistics_trap",
+      "day": 8,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "ask",
+      "energy": "normal",
+      "prompt_together": "Lamp on. One of you asks. Ask what they’ve been thinking about lately that has nothing to do with the house. No fixing.",
+      "prompt_solo": "Lamp on. Ask what’s been on their mind lately, and let it run without solving any of it. No fixing.",
+      "beats_together": [
+        "Lamp on. One of you asks.",
+        "Ask what they’ve been thinking about lately that has nothing to do with the house.",
+        "No fixing."
+      ],
+      "beats_solo": [
+        "Lamp on.",
+        "Ask what’s been on their mind lately, and let it run without solving any of it.",
+        "No fixing."
+      ],
+      "after_line": "You asked something you didn’t already know the answer to.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d09",
+      "pattern": "logistics_trap",
+      "day": 9,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "listen",
+      "energy": "normal",
+      "prompt_together": "Two seats, one lamp. Let them tell you how their day actually went, all the way to the end. Then swap.",
+      "prompt_solo": "Two seats, one lamp. Let them talk about their day and say nothing at all until they’re done. Then it’s your turn.",
+      "beats_together": [
+        "Two seats, one lamp.",
+        "Let them tell you how their day actually went, all the way to the end.",
+        "Then swap."
+      ],
+      "beats_solo": [
+        "Two seats, one lamp.",
+        "Let them talk about their day and say nothing at all until they’re done.",
+        "Then it’s your turn."
+      ],
+      "after_line": "Two days, each told all the way to the end.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d10",
+      "pattern": "logistics_trap",
+      "day": 10,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "imagine",
+      "energy": "deep",
+      "prompt_together": "By the window, or the sofa. Describe a day where nobody needs anything from you. Start with what time you’d get up. Take turns, and nothing gets written down.",
+      "prompt_solo": "By the window, or the sofa. Wonder out loud what you’d do with a free day, and let them build theirs. Nothing gets written down.",
+      "beats_together": [
+        "By the window, or the sofa.",
+        "Describe a day where nobody needs anything from you. Start with what time you’d get up.",
+        "Take turns, and nothing gets written down."
+      ],
+      "beats_solo": [
+        "By the window, or the sofa.",
+        "Wonder out loud what you’d do with a free day, and let them build theirs.",
+        "Nothing gets written down."
+      ],
+      "after_line": "You wanted things out loud, and nobody booked anything.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d11",
+      "pattern": "logistics_trap",
+      "day": 11,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "play",
+      "energy": "normal",
+      "prompt_together": "Sofa, facing each other. Guess their answer out loud, then ask. Three silly questions each. Nothing about the house.",
+      "prompt_solo": "Sofa. Guess what they’ll say before you ask, then ask, and see how close you were. Nothing about the house.",
+      "beats_together": [
+        "Sofa, facing each other.",
+        "Guess their answer out loud, then ask. Three silly questions each.",
+        "Nothing about the house."
+      ],
+      "beats_solo": [
+        "Sofa.",
+        "Guess what they’ll say before you ask, then ask, and see how close you were.",
+        "Nothing about the house."
+      ],
+      "after_line": "You got some right. Not all of them.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d12",
+      "pattern": "logistics_trap",
+      "day": 12,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "remember",
+      "energy": "tiny",
+      "prompt_together": "Five minutes. Say what you were obsessed with at fourteen, then ask for theirs.",
+      "prompt_solo": "Five minutes. Mention what you were obsessed with at fourteen and wait for theirs.",
+      "beats_together": [
+        "Five minutes.",
+        "Say what you were obsessed with at fourteen, then ask for theirs."
+      ],
+      "beats_solo": [
+        "Five minutes.",
+        "Mention what you were obsessed with at fourteen and wait for theirs."
+      ],
+      "after_line": "Fourteen is still in there somewhere.",
+      "duration_min": 5,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d13",
+      "pattern": "logistics_trap",
+      "day": 13,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "ask",
+      "energy": "normal",
+      "prompt_together": "Kettle on. Take a seat. Ask for a story from before you met about somebody you’ve never met. Ask one more thing about it.",
+      "prompt_solo": "Kettle on. Take a seat. Ask for a story from before your time, then ask one more thing. Let it go long.",
+      "beats_together": [
+        "Kettle on. Take a seat.",
+        "Ask for a story from before you met about somebody you’ve never met.",
+        "Ask one more thing about it."
+      ],
+      "beats_solo": [
+        "Kettle on. Take a seat.",
+        "Ask for a story from before your time, then ask one more thing.",
+        "Let it go long."
+      ],
+      "after_line": "They had a whole life before you. You just heard some of it.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d14",
+      "pattern": "logistics_trap",
+      "day": 14,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "ask",
+      "energy": "deep",
+      "prompt_together": "Both sitting down. Lamp on. Ask what they wish the two of you did more of, and say nothing while they answer. This isn’t a plan.",
+      "prompt_solo": "Both sitting down. Lamp on. Ask what they wish you two did more of, and just take the answer in. This isn’t a plan.",
+      "beats_together": [
+        "Both sitting down. Lamp on.",
+        "Ask what they wish the two of you did more of, and say nothing while they answer.",
+        "This isn’t a plan."
+      ],
+      "beats_solo": [
+        "Both sitting down. Lamp on.",
+        "Ask what they wish you two did more of, and just take the answer in.",
+        "This isn’t a plan."
+      ],
+      "after_line": "Now you know one thing they’d like more of.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d15",
+      "pattern": "logistics_trap",
+      "day": 15,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "touch",
+      "energy": "normal",
+      "prompt_together": "The sofa, one end. Sit at the same end tonight, close enough that your shoulders are touching. Either of you can pass.",
+      "prompt_solo": "The sofa, one end. Sit down at their end tonight, close enough to touch, and stay there. Either of you can pass.",
+      "beats_together": [
+        "The sofa, one end.",
+        "Sit at the same end tonight, close enough that your shoulders are touching.",
+        "Either of you can pass."
+      ],
+      "beats_solo": [
+        "The sofa, one end.",
+        "Sit down at their end tonight, close enough to touch, and stay there.",
+        "Either of you can pass."
+      ],
+      "after_line": "The same sofa as the first night, with a lot less of it between you.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d16",
+      "pattern": "logistics_trap",
+      "day": 16,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "settle",
+      "energy": "normal",
+      "prompt_together": "Shoes on. After dinner. Walk to the corner and back. The dishes will still be there. Kids asleep? The front step counts.",
+      "prompt_solo": "Shoes on. After dinner. Suggest a walk to the corner, for no reason, and go before anyone talks you out of it.",
+      "beats_together": [
+        "Shoes on. After dinner.",
+        "Walk to the corner and back. The dishes will still be there.",
+        "Kids asleep? The front step counts."
+      ],
+      "beats_solo": [
+        "Shoes on. After dinner.",
+        "Suggest a walk to the corner, for no reason, and go before anyone talks you out of it."
+      ],
+      "after_line": "Ten minutes of the street, side by side, and nothing to decide.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d17",
+      "pattern": "logistics_trap",
+      "day": 17,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "touch",
+      "energy": "normal",
+      "prompt_together": "One song, start to finish. Hold hands for the whole song, and talk about nothing in particular. Either of you can pass.",
+      "prompt_solo": "One song, start to finish. Take their hand for the length of it, for no reason, and let go after. Either of you can pass.",
+      "beats_together": [
+        "One song, start to finish.",
+        "Hold hands for the whole song, and talk about nothing in particular.",
+        "Either of you can pass."
+      ],
+      "beats_solo": [
+        "One song, start to finish.",
+        "Take their hand for the length of it, for no reason, and let go after.",
+        "Either of you can pass."
+      ],
+      "after_line": "Their hand, for the length of one song.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d18",
+      "pattern": "logistics_trap",
+      "day": 18,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "make",
+      "energy": "deep",
+      "prompt_together": "Tonight’s meal, at the table. Set the table properly, candles if you have them, and eat with the phones elsewhere. Leftovers are fine.",
+      "prompt_solo": "Tonight’s meal, at the table. Set the table properly, put the phones somewhere else, and call them in. Leftovers are fine.",
+      "beats_together": [
+        "Tonight’s meal, at the table.",
+        "Set the table properly, candles if you have them, and eat with the phones elsewhere.",
+        "Leftovers are fine."
+      ],
+      "beats_solo": [
+        "Tonight’s meal, at the table.",
+        "Set the table properly, put the phones somewhere else, and call them in.",
+        "Leftovers are fine."
+      ],
+      "after_line": "Same food, a set table, and the phones elsewhere.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d19",
+      "pattern": "logistics_trap",
+      "day": 19,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "play",
+      "energy": "tiny",
+      "prompt_together": "Five minutes. One song. Dance badly to it, really badly, all the way to the end.",
+      "prompt_solo": "Five minutes. One song. Put a song on in the kitchen and start dancing badly until they join in.",
+      "beats_together": [
+        "Five minutes. One song.",
+        "Dance badly to it, really badly, all the way to the end."
+      ],
+      "beats_solo": [
+        "Five minutes. One song.",
+        "Put a song on in the kitchen and start dancing badly until they join in."
+      ],
+      "after_line": "Nobody was watching and you did it anyway.",
+      "duration_min": 5,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d20",
+      "pattern": "logistics_trap",
+      "day": 20,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "touch",
+      "energy": "normal",
+      "prompt_together": "Before bed, in the doorway. Hug until it stops being a goodnight and starts being a hug. Either of you can pass.",
+      "prompt_solo": "Before bed, in the doorway. Make tonight’s goodnight hug last past the point it usually ends. Either of you can pass.",
+      "beats_together": [
+        "Before bed, in the doorway.",
+        "Hug until it stops being a goodnight and starts being a hug.",
+        "Either of you can pass."
+      ],
+      "beats_solo": [
+        "Before bed, in the doorway.",
+        "Make tonight’s goodnight hug last past the point it usually ends.",
+        "Either of you can pass."
+      ],
+      "after_line": "A hug with nowhere to be afterwards.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d21",
+      "pattern": "logistics_trap",
+      "day": 21,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "leave",
+      "energy": "normal",
+      "prompt_together": "By the door, last thing. Leave them a line somewhere they’ll find it tomorrow morning, and say nothing. One sentence is plenty.",
+      "prompt_solo": "By the door, last thing. Write them one line and leave it where they’ll find it in the morning. One sentence is plenty.",
+      "beats_together": [
+        "By the door, last thing.",
+        "Leave them a line somewhere they’ll find it tomorrow morning, and say nothing.",
+        "One sentence is plenty."
+      ],
+      "beats_solo": [
+        "By the door, last thing.",
+        "Write them one line and leave it where they’ll find it in the morning.",
+        "One sentence is plenty."
+      ],
+      "after_line": "Tomorrow morning has something in it that isn’t a list.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d22",
+      "pattern": "logistics_trap",
+      "day": 22,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "settle",
+      "energy": "deep",
+      "prompt_together": "Same bedtime, phones elsewhere. Go to bed at the same time and stay there, reading or talking or neither. Nothing has to happen.",
+      "prompt_solo": "Same bedtime, phones elsewhere. Match their bedtime, leave your phone in the kitchen, and go to bed when they do. Nothing has to happen.",
+      "beats_together": [
+        "Same bedtime, phones elsewhere.",
+        "Go to bed at the same time and stay there, reading or talking or neither.",
+        "Nothing has to happen."
+      ],
+      "beats_solo": [
+        "Same bedtime, phones elsewhere.",
+        "Match their bedtime, leave your phone in the kitchen, and go to bed when they do.",
+        "Nothing has to happen."
+      ],
+      "after_line": "You ended the day in the same room at the same time.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d23",
+      "pattern": "logistics_trap",
+      "day": 23,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "keep",
+      "energy": "normal",
+      "prompt_together": "Tonight, nothing new. Pick the evening this month you both liked best, and do it again tonight. Argue about which one, briefly.",
+      "prompt_solo": "Tonight, nothing new. Repeat the evening from this month that felt most like the two of you. No need to announce it.",
+      "beats_together": [
+        "Tonight, nothing new.",
+        "Pick the evening this month you both liked best, and do it again tonight.",
+        "Argue about which one, briefly."
+      ],
+      "beats_solo": [
+        "Tonight, nothing new.",
+        "Repeat the evening from this month that felt most like the two of you.",
+        "No need to announce it."
+      ],
+      "after_line": "Twice now. Not a one-off.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d24",
+      "pattern": "logistics_trap",
+      "day": 24,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "make",
+      "energy": "normal",
+      "prompt_together": "Tonight, somewhere in the house. Each of you does one small thing for the other that nobody asked for. Don’t mention it. Small is better.",
+      "prompt_solo": "Tonight, somewhere in the house. Do one small kind thing for them that nobody asked for, and never mention it. Small is better.",
+      "beats_together": [
+        "Tonight, somewhere in the house.",
+        "Each of you does one small thing for the other that nobody asked for. Don’t mention it.",
+        "Small is better."
+      ],
+      "beats_solo": [
+        "Tonight, somewhere in the house.",
+        "Do one small kind thing for them that nobody asked for, and never mention it.",
+        "Small is better."
+      ],
+      "after_line": "Something small, and nobody mentioned it.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d25",
+      "pattern": "logistics_trap",
+      "day": 25,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "imagine",
+      "energy": "deep",
+      "prompt_together": "By the window, lamp on. Describe one ordinary evening a year from now, in detail, until you both see it. Keep it ordinary.",
+      "prompt_solo": "By the window, lamp on. Wonder out loud what an ordinary evening a year from now looks like, and build it. Keep it ordinary.",
+      "beats_together": [
+        "By the window, lamp on.",
+        "Describe one ordinary evening a year from now, in detail, until you both see it.",
+        "Keep it ordinary."
+      ],
+      "beats_solo": [
+        "By the window, lamp on.",
+        "Wonder out loud what an ordinary evening a year from now looks like, and build it.",
+        "Keep it ordinary."
+      ],
+      "after_line": "A Tuesday a year out, described in detail.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d26",
+      "pattern": "logistics_trap",
+      "day": 26,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "see",
+      "energy": "tiny",
+      "prompt_together": "Sixty seconds. Say to their face the good thing you’d say about them to somebody else.",
+      "prompt_solo": "Sixty seconds. Say out loud the next good thing you catch yourself thinking about them.",
+      "beats_together": [
+        "Sixty seconds.",
+        "Say to their face the good thing you’d say about them to somebody else."
+      ],
+      "beats_solo": [
+        "Sixty seconds.",
+        "Say out loud the next good thing you catch yourself thinking about them."
+      ],
+      "after_line": "You said it to them, not about them.",
+      "duration_min": 5,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d27",
+      "pattern": "logistics_trap",
+      "day": 27,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "remember",
+      "energy": "normal",
+      "prompt_together": "Sofa. Think back a bit. Tell each other the evening this month you didn’t expect to like. Be specific about why.",
+      "prompt_solo": "Sofa. Think back a bit. Mention the evening this month that surprised you, and ask which was theirs. Be specific about why.",
+      "beats_together": [
+        "Sofa. Think back a bit.",
+        "Tell each other the evening this month you didn’t expect to like.",
+        "Be specific about why."
+      ],
+      "beats_solo": [
+        "Sofa. Think back a bit.",
+        "Mention the evening this month that surprised you, and ask which was theirs.",
+        "Be specific about why."
+      ],
+      "after_line": "Two evenings you didn’t see coming.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d28",
+      "pattern": "logistics_trap",
+      "day": 28,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "play",
+      "energy": "normal",
+      "prompt_together": "Standing up, in the kitchen. Teach them one thing you can do that they can’t. Then let them teach you one. Ten minutes, badly, is fine.",
+      "prompt_solo": "Standing up, in the kitchen. Show them one thing you can do that they can’t, then ask them to show you one. Ten minutes, badly, is fine.",
+      "beats_together": [
+        "Standing up, in the kitchen.",
+        "Teach them one thing you can do that they can’t. Then let them teach you one.",
+        "Ten minutes, badly, is fine."
+      ],
+      "beats_solo": [
+        "Standing up, in the kitchen.",
+        "Show them one thing you can do that they can’t, then ask them to show you one.",
+        "Ten minutes, badly, is fine."
+      ],
+      "after_line": "You were both beginners at something in front of each other.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d29",
+      "pattern": "logistics_trap",
+      "day": 29,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "ask",
+      "energy": "normal",
+      "prompt_together": "Any time tonight. Out loud. Ask them to keep tomorrow evening free for you. Don’t say what for. You don’t need a reason yet.",
+      "prompt_solo": "Any time tonight. Out loud. Ask them to keep tomorrow evening free for you, and leave it a mystery. You don’t need a reason yet.",
+      "beats_together": [
+        "Any time tonight. Out loud.",
+        "Ask them to keep tomorrow evening free for you. Don’t say what for.",
+        "You don’t need a reason yet."
+      ],
+      "beats_solo": [
+        "Any time tonight. Out loud.",
+        "Ask them to keep tomorrow evening free for you, and leave it a mystery.",
+        "You don’t need a reason yet."
+      ],
+      "after_line": "Tomorrow evening is spoken for.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "lt_d30",
+      "pattern": "logistics_trap",
+      "day": 30,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "keep",
+      "energy": "deep",
+      "prompt_together": "Last one. Same seats. Say one sentence each about what’s different tonight. That sentence is the card.",
+      "prompt_solo": "Last one. Same seats. Tell them, in one sentence, what’s different about the two of you now. One sentence is plenty.",
+      "beats_together": [
+        "Last one. Same seats.",
+        "Say one sentence each about what’s different tonight.",
+        "That sentence is the card."
+      ],
+      "beats_solo": [
+        "Last one. Same seats.",
+        "Tell them, in one sentence, what’s different about the two of you now.",
+        "One sentence is plenty."
+      ],
+      "after_line": "Same seats as the first night, and nothing said was about what needs doing.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d01",
+      "pattern": "parallel_play",
+      "day": 1,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "settle",
+      "energy": "normal",
+      "prompt_together": "Same sofa. Screens off. Put both phones face down on the table and sit together for ten minutes. Yes, a phone told you to. Sit anyway.",
+      "prompt_solo": "Same sofa. Screens off. Put your phone face down in another room and sit with them for ten minutes.",
+      "beats_together": [
+        "Same sofa. Screens off.",
+        "Put both phones face down on the table and sit together for ten minutes.",
+        "Yes, a phone told you to. Sit anyway."
+      ],
+      "beats_solo": [
+        "Same sofa. Screens off.",
+        "Put your phone face down in another room and sit with them for ten minutes."
+      ],
+      "after_line": "Ten minutes, same sofa, nowhere else to be.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d02",
+      "pattern": "parallel_play",
+      "day": 2,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "see",
+      "energy": "normal",
+      "prompt_together": "Across the room. Look up. Look at them and tell them one thing you saw them do today. Small counts.",
+      "prompt_solo": "Across the room. Look up. Mention one thing you saw them do today, and look at them while you say it. Small counts.",
+      "beats_together": [
+        "Across the room. Look up.",
+        "Look at them and tell them one thing you saw them do today.",
+        "Small counts."
+      ],
+      "beats_solo": [
+        "Across the room. Look up.",
+        "Mention one thing you saw them do today, and look at them while you say it.",
+        "Small counts."
+      ],
+      "after_line": "One thing they did today, noticed and said out loud.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d03",
+      "pattern": "parallel_play",
+      "day": 3,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "make",
+      "energy": "tiny",
+      "prompt_together": "Five minutes. Make them their drink without asking, put it down beside them, and sit there.",
+      "prompt_solo": "Five minutes. Make their usual drink, put it down beside them, and stay in the room.",
+      "beats_together": [
+        "Five minutes.",
+        "Make them their drink without asking, put it down beside them, and sit there."
+      ],
+      "beats_solo": [
+        "Five minutes.",
+        "Make their usual drink, put it down beside them, and stay in the room."
+      ],
+      "after_line": "They didn’t ask. It came anyway.",
+      "duration_min": 5,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d04",
+      "pattern": "parallel_play",
+      "day": 4,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "play",
+      "energy": "normal",
+      "prompt_together": "Kitchen table. Phones in a drawer. Deal one hand of any card game you both know, and play it to the end. Loser shuffles.",
+      "prompt_solo": "Kitchen table. Phones in a drawer. Get a deck of cards out and ask if they’re up for one hand of anything. Loser shuffles.",
+      "beats_together": [
+        "Kitchen table. Phones in a drawer.",
+        "Deal one hand of any card game you both know, and play it to the end.",
+        "Loser shuffles."
+      ],
+      "beats_solo": [
+        "Kitchen table. Phones in a drawer.",
+        "Get a deck of cards out and ask if they’re up for one hand of anything.",
+        "Loser shuffles."
+      ],
+      "after_line": "A hand of cards, and both phones in a drawer.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d05",
+      "pattern": "parallel_play",
+      "day": 5,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "settle",
+      "energy": "tiny",
+      "prompt_together": "Sixty seconds. Turn the big light off, put one lamp on, and sit in each other’s usual seat.",
+      "prompt_solo": "Sixty seconds. Turn the big light off, put one lamp on, and take the seat that isn’t yours.",
+      "beats_together": [
+        "Sixty seconds.",
+        "Turn the big light off, put one lamp on, and sit in each other’s usual seat."
+      ],
+      "beats_solo": [
+        "Sixty seconds.",
+        "Turn the big light off, put one lamp on, and take the seat that isn’t yours."
+      ],
+      "after_line": "One lamp and the wrong chair, and the room stops looking like every other night.",
+      "duration_min": 5,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d06",
+      "pattern": "parallel_play",
+      "day": 6,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "remember",
+      "energy": "normal",
+      "prompt_together": "Kitchen or sofa. Speaker on. Play a song from the year you met, out loud, and let it finish. One speaker. No headphones.",
+      "prompt_solo": "Kitchen or sofa. Speaker on. Find a song from the year you met and play it loud enough for them to hear. One speaker. No headphones.",
+      "beats_together": [
+        "Kitchen or sofa. Speaker on.",
+        "Play a song from the year you met, out loud, and let it finish.",
+        "One speaker. No headphones."
+      ],
+      "beats_solo": [
+        "Kitchen or sofa. Speaker on.",
+        "Find a song from the year you met and play it loud enough for them to hear.",
+        "One speaker. No headphones."
+      ],
+      "after_line": "Some songs come with a whole year attached, and you were both in it.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d07",
+      "pattern": "parallel_play",
+      "day": 7,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "see",
+      "energy": "deep",
+      "prompt_together": "Sofa. Both facing in. Tell them one thing you’d forgotten you liked about them. Then stay for the awkward bit. Either of you can pass.",
+      "prompt_solo": "Sofa. Both facing in. Tell them one thing you’d forgotten you liked about them, and then stop talking. Then stay for the awkward bit. Either of you can pass.",
+      "beats_together": [
+        "Sofa. Both facing in.",
+        "Tell them one thing you’d forgotten you liked about them.",
+        "Then stay for the awkward bit. Either of you can pass."
+      ],
+      "beats_solo": [
+        "Sofa. Both facing in.",
+        "Tell them one thing you’d forgotten you liked about them, and then stop talking.",
+        "Then stay for the awkward bit. Either of you can pass."
+      ],
+      "after_line": "The quiet afterwards is part of it.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d08",
+      "pattern": "parallel_play",
+      "day": 8,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "ask",
+      "energy": "normal",
+      "prompt_together": "After dinner. Ask what they’re into at the moment, and only listen to the answer. Don’t make it your turn.",
+      "prompt_solo": "After dinner. Ask what they’re into at the moment and let them go on about it. Don’t make it your turn.",
+      "beats_together": [
+        "After dinner.",
+        "Ask what they’re into at the moment, and only listen to the answer.",
+        "Don’t make it your turn."
+      ],
+      "beats_solo": [
+        "After dinner.",
+        "Ask what they’re into at the moment and let them go on about it.",
+        "Don’t make it your turn."
+      ],
+      "after_line": "Now you know what they’ve been into lately.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d09",
+      "pattern": "parallel_play",
+      "day": 9,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "listen",
+      "energy": "normal",
+      "prompt_together": "Sofa. Nothing else on. Find out how their day really went, and hear it all the way to the end. Then swap, if you want.",
+      "prompt_solo": "Sofa. Nothing else on. Ask how their day really went, and say nothing until they’ve finished. Nothing at all.",
+      "beats_together": [
+        "Sofa. Nothing else on.",
+        "Find out how their day really went, and hear it all the way to the end.",
+        "Then swap, if you want."
+      ],
+      "beats_solo": [
+        "Sofa. Nothing else on.",
+        "Ask how their day really went, and say nothing until they’ve finished.",
+        "Nothing at all."
+      ],
+      "after_line": "Their day, heard all the way to the end.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d10",
+      "pattern": "parallel_play",
+      "day": 10,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "imagine",
+      "energy": "deep",
+      "prompt_together": "Sofa, lamp on, phones away. Talk through one free day, hour by hour, each of you picking the next hour. Describe it. Don’t book it.",
+      "prompt_solo": "Sofa, lamp on, phones away. Ask how they’d spend one free day, then add an hour of your own to it. Describe it. Don’t book it.",
+      "beats_together": [
+        "Sofa, lamp on, phones away.",
+        "Talk through one free day, hour by hour, each of you picking the next hour.",
+        "Describe it. Don’t book it."
+      ],
+      "beats_solo": [
+        "Sofa, lamp on, phones away.",
+        "Ask how they’d spend one free day, then add an hour of your own to it.",
+        "Describe it. Don’t book it."
+      ],
+      "after_line": "Now you both know how that day would go.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d11",
+      "pattern": "parallel_play",
+      "day": 11,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "play",
+      "energy": "normal",
+      "prompt_together": "Wherever the mess is. Ten minutes. Set a timer for ten minutes and race each other through tonight’s cleanup. No talking about who does more.",
+      "prompt_solo": "Wherever the mess is. Ten minutes. Start on the mess and make it easy for them to join in. No talking about who does more.",
+      "beats_together": [
+        "Wherever the mess is. Ten minutes.",
+        "Set a timer for ten minutes and race each other through tonight’s cleanup.",
+        "No talking about who does more."
+      ],
+      "beats_solo": [
+        "Wherever the mess is. Ten minutes.",
+        "Start on the mess and make it easy for them to join in.",
+        "No talking about who does more."
+      ],
+      "after_line": "Ten minutes, and the mess got smaller.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d12",
+      "pattern": "parallel_play",
+      "day": 12,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "remember",
+      "energy": "tiny",
+      "prompt_together": "Five minutes, one phone. Look up what you were each obsessed with at fourteen and show them the pictures.",
+      "prompt_solo": "Five minutes, one phone. Look up whatever you were obsessed with at fourteen and show them the pictures.",
+      "beats_together": [
+        "Five minutes, one phone.",
+        "Look up what you were each obsessed with at fourteen and show them the pictures."
+      ],
+      "beats_solo": [
+        "Five minutes, one phone.",
+        "Look up whatever you were obsessed with at fourteen and show them the pictures."
+      ],
+      "after_line": "Fourteen is still in there somewhere, and it has terrible taste.",
+      "duration_min": 5,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d13",
+      "pattern": "parallel_play",
+      "day": 13,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "ask",
+      "energy": "normal",
+      "prompt_together": "Kettle on. Ask for a story from before you met, then ask one more question about it. The follow-up is the point.",
+      "prompt_solo": "Kettle on. Ask about a year of theirs you weren’t around for, and keep asking. The follow-up is the point.",
+      "beats_together": [
+        "Kettle on.",
+        "Ask for a story from before you met, then ask one more question about it.",
+        "The follow-up is the point."
+      ],
+      "beats_solo": [
+        "Kettle on.",
+        "Ask about a year of theirs you weren’t around for, and keep asking.",
+        "The follow-up is the point."
+      ],
+      "after_line": "There are whole years of them you only know the summary of.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d14",
+      "pattern": "parallel_play",
+      "day": 14,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "ask",
+      "energy": "deep",
+      "prompt_together": "Sofa. Lamp on. Phones off. Ask what happened this month they never got around to telling you. Whoever’s reading this goes first.",
+      "prompt_solo": "Sofa. Lamp on. Phones off. Ask what happened this month that they never got around to telling you. Small ones count.",
+      "beats_together": [
+        "Sofa. Lamp on. Phones off.",
+        "Ask what happened this month they never got around to telling you.",
+        "Whoever’s reading this goes first."
+      ],
+      "beats_solo": [
+        "Sofa. Lamp on. Phones off.",
+        "Ask what happened this month that they never got around to telling you.",
+        "Small ones count."
+      ],
+      "after_line": "One thing from this month, finally told.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d15",
+      "pattern": "parallel_play",
+      "day": 15,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "touch",
+      "energy": "normal",
+      "prompt_together": "Sofa. One blanket. Share one blanket, shoulder to shoulder, for whatever’s on tonight. Either of you can pass.",
+      "prompt_solo": "Sofa. One blanket. Put the blanket over both of you and sit close enough to stay under it. Either of you can pass.",
+      "beats_together": [
+        "Sofa. One blanket.",
+        "Share one blanket, shoulder to shoulder, for whatever’s on tonight.",
+        "Either of you can pass."
+      ],
+      "beats_solo": [
+        "Sofa. One blanket.",
+        "Put the blanket over both of you and sit close enough to stay under it.",
+        "Either of you can pass."
+      ],
+      "after_line": "Same blanket, same show, one less gap in the middle of the sofa.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d16",
+      "pattern": "parallel_play",
+      "day": 16,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "settle",
+      "energy": "normal",
+      "prompt_together": "Window, or the step outside. Take your drinks to the window and watch the street for ten minutes. Report anything interesting.",
+      "prompt_solo": "Window, or the step outside. Take two drinks to the window and ask them to come and watch the street. Report anything interesting.",
+      "beats_together": [
+        "Window, or the step outside.",
+        "Take your drinks to the window and watch the street for ten minutes.",
+        "Report anything interesting."
+      ],
+      "beats_solo": [
+        "Window, or the step outside.",
+        "Take two drinks to the window and ask them to come and watch the street.",
+        "Report anything interesting."
+      ],
+      "after_line": "Nothing much happened out there. You both saw it.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d17",
+      "pattern": "parallel_play",
+      "day": 17,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "touch",
+      "energy": "normal",
+      "prompt_together": "Floor or bed. One song. Sit back to back through one whole song and don’t talk over it. Either of you can pass.",
+      "prompt_solo": "Floor or bed. One song. Sit down back to back with them for one song and stay for all of it. Either of you can pass.",
+      "beats_together": [
+        "Floor or bed. One song.",
+        "Sit back to back through one whole song and don’t talk over it.",
+        "Either of you can pass."
+      ],
+      "beats_solo": [
+        "Floor or bed. One song.",
+        "Sit down back to back with them for one song and stay for all of it.",
+        "Either of you can pass."
+      ],
+      "after_line": "One song, back to back.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d18",
+      "pattern": "parallel_play",
+      "day": 18,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "make",
+      "energy": "deep",
+      "prompt_together": "Kitchen table. No screens on it. Set the table properly tonight, candle and all, and eat facing each other. Whatever the meal is, and whoever else is at the table, it counts.",
+      "prompt_solo": "Kitchen table. No screens on it. Set the table properly before they come in, candle and all. Whatever the meal is, and whoever else is at the table, it counts.",
+      "beats_together": [
+        "Kitchen table. No screens on it.",
+        "Set the table properly tonight, candle and all, and eat facing each other.",
+        "Whatever the meal is, and whoever else is at the table, it counts."
+      ],
+      "beats_solo": [
+        "Kitchen table. No screens on it.",
+        "Set the table properly before they come in, candle and all.",
+        "Whatever the meal is, and whoever else is at the table, it counts."
+      ],
+      "after_line": "Same food. A set table. A different evening.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d19",
+      "pattern": "parallel_play",
+      "day": 19,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "play",
+      "energy": "tiny",
+      "prompt_together": "Kitchen. One song. Put something on and dance badly to it until it ends.",
+      "prompt_solo": "Kitchen. One song. Put something on and be the first one dancing badly to it.",
+      "beats_together": [
+        "Kitchen. One song.",
+        "Put something on and dance badly to it until it ends."
+      ],
+      "beats_solo": [
+        "Kitchen. One song.",
+        "Put something on and be the first one dancing badly to it."
+      ],
+      "after_line": "Nobody was good at that. Nobody needed to be.",
+      "duration_min": 5,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d20",
+      "pattern": "parallel_play",
+      "day": 20,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "touch",
+      "energy": "normal",
+      "prompt_together": "Kitchen, when the kettle goes on. Hug when the kettle goes on and hold on until it clicks off. Either of you can pass.",
+      "prompt_solo": "Kitchen, when the kettle goes on. Hug them while the kettle runs and let go once it clicks off. Either of you can pass.",
+      "beats_together": [
+        "Kitchen, when the kettle goes on.",
+        "Hug when the kettle goes on and hold on until it clicks off.",
+        "Either of you can pass."
+      ],
+      "beats_solo": [
+        "Kitchen, when the kettle goes on.",
+        "Hug them while the kettle runs and let go once it clicks off.",
+        "Either of you can pass."
+      ],
+      "after_line": "Most hugs end early. That one didn’t.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d21",
+      "pattern": "parallel_play",
+      "day": 21,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "leave",
+      "energy": "normal",
+      "prompt_together": "Before bed. One scrap of paper. Write one line and leave it where they’ll find it in the morning. Nothing useful on it.",
+      "prompt_solo": "Before bed. One scrap of paper. Write them one line and leave it where they’ll find it first thing. Nothing useful on it.",
+      "beats_together": [
+        "Before bed. One scrap of paper.",
+        "Write one line and leave it where they’ll find it in the morning.",
+        "Nothing useful on it."
+      ],
+      "beats_solo": [
+        "Before bed. One scrap of paper.",
+        "Write them one line and leave it where they’ll find it first thing.",
+        "Nothing useful on it."
+      ],
+      "after_line": "Tomorrow morning has something in it now.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d22",
+      "pattern": "parallel_play",
+      "day": 22,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "settle",
+      "energy": "deep",
+      "prompt_together": "Tonight, both of you, same hour. Leave both phones in another room and go to bed at the same time tonight. Whoever’s up last turns the lamp off.",
+      "prompt_solo": "Tonight, same hour. Leave your phone in another room and go to bed when they do. Turn the lamp off last.",
+      "beats_together": [
+        "Tonight, both of you, same hour.",
+        "Leave both phones in another room and go to bed at the same time tonight.",
+        "Whoever’s up last turns the lamp off."
+      ],
+      "beats_solo": [
+        "Tonight, same hour.",
+        "Leave your phone in another room and go to bed when they do.",
+        "Turn the lamp off last."
+      ],
+      "after_line": "Same hour, same bed, and a phone left in another room.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d23",
+      "pattern": "parallel_play",
+      "day": 23,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "keep",
+      "energy": "normal",
+      "prompt_together": "Sofa. Phones in the other room. Do again the evening this month that felt most like the two of you. No meeting about which one.",
+      "prompt_solo": "Sofa. Phones in the other room. Bring back the evening this month you’d both have again, without saying which.",
+      "beats_together": [
+        "Sofa. Phones in the other room.",
+        "Do again the evening this month that felt most like the two of you.",
+        "No meeting about which one."
+      ],
+      "beats_solo": [
+        "Sofa. Phones in the other room.",
+        "Bring back the evening this month you’d both have again, without saying which."
+      ],
+      "after_line": "Same evening, second time, and nobody reached for a phone.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d24",
+      "pattern": "parallel_play",
+      "day": 24,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "make",
+      "energy": "normal",
+      "prompt_together": "Anywhere at home, tonight. Do one small thing each for the other tonight without saying what it was. They can work it out.",
+      "prompt_solo": "Anywhere at home, tonight. Do one small thing for them tonight and never mention that you did it. They can work it out.",
+      "beats_together": [
+        "Anywhere at home, tonight.",
+        "Do one small thing each for the other tonight without saying what it was.",
+        "They can work it out."
+      ],
+      "beats_solo": [
+        "Anywhere at home, tonight.",
+        "Do one small thing for them tonight and never mention that you did it.",
+        "They can work it out."
+      ],
+      "after_line": "Something got done tonight that nobody asked for.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d25",
+      "pattern": "parallel_play",
+      "day": 25,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "imagine",
+      "energy": "deep",
+      "prompt_together": "Lamp on. No plans made. Describe one ordinary evening a year from now, this room, this hour, out loud. Ordinary only. Nothing grand.",
+      "prompt_solo": "Lamp on. No plans made. Describe one ordinary evening a year from now and ask what they’d add to it. Ordinary only. Nothing grand.",
+      "beats_together": [
+        "Lamp on. No plans made.",
+        "Describe one ordinary evening a year from now, this room, this hour, out loud.",
+        "Ordinary only. Nothing grand."
+      ],
+      "beats_solo": [
+        "Lamp on. No plans made.",
+        "Describe one ordinary evening a year from now and ask what they’d add to it.",
+        "Ordinary only. Nothing grand."
+      ],
+      "after_line": "It sounded a lot like tonight, with the good parts turned up slightly.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d26",
+      "pattern": "parallel_play",
+      "day": 26,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "see",
+      "energy": "tiny",
+      "prompt_together": "Sixty seconds. Say to their face the thing you’d say about them to somebody else.",
+      "prompt_solo": "Sixty seconds. Say to their face the thing you’d say about them to somebody else.",
+      "beats_together": [
+        "Sixty seconds.",
+        "Say to their face the thing you’d say about them to somebody else."
+      ],
+      "beats_solo": [
+        "Sixty seconds.",
+        "Say to their face the thing you’d say about them to somebody else."
+      ],
+      "after_line": "They don’t often get to hear that one.",
+      "duration_min": 5,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d27",
+      "pattern": "parallel_play",
+      "day": 27,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "remember",
+      "energy": "normal",
+      "prompt_together": "Sofa. Both answers at once. Count to three and say which night this month felt closest, both at once. No conferring first.",
+      "prompt_solo": "Sofa, end of the evening. Say which evening this month felt closest, then ask them for theirs. Be specific about why.",
+      "beats_together": [
+        "Sofa. Both answers at once.",
+        "Count to three and say which night this month felt closest, both at once.",
+        "No conferring first."
+      ],
+      "beats_solo": [
+        "Sofa, end of the evening.",
+        "Say which evening this month felt closest, then ask them for theirs.",
+        "Be specific about why."
+      ],
+      "after_line": "Same night or not, now you know theirs.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d28",
+      "pattern": "parallel_play",
+      "day": 28,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "play",
+      "energy": "normal",
+      "prompt_together": "Sofa or kitchen. Ten minutes. Teach them one thing you can do that they can’t, then swap and be taught. Badly is fine.",
+      "prompt_solo": "Sofa or kitchen. Ten minutes. Teach them one thing you can do that they can’t, and let them have a go. Badly is fine.",
+      "beats_together": [
+        "Sofa or kitchen. Ten minutes.",
+        "Teach them one thing you can do that they can’t, then swap and be taught.",
+        "Badly is fine."
+      ],
+      "beats_solo": [
+        "Sofa or kitchen. Ten minutes.",
+        "Teach them one thing you can do that they can’t, and let them have a go.",
+        "Badly is fine."
+      ],
+      "after_line": "You watched each other learn something, instead of watching a screen.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d29",
+      "pattern": "parallel_play",
+      "day": 29,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "ask",
+      "energy": "normal",
+      "prompt_together": "Tonight, face to face. Ask them to keep tomorrow evening free for you, and don’t explain what for. Yes is the whole answer.",
+      "prompt_solo": "Tonight, face to face. Ask them to keep tomorrow evening free for you and leave it at that. Yes is the whole answer.",
+      "beats_together": [
+        "Tonight, face to face.",
+        "Ask them to keep tomorrow evening free for you, and don’t explain what for.",
+        "Yes is the whole answer."
+      ],
+      "beats_solo": [
+        "Tonight, face to face.",
+        "Ask them to keep tomorrow evening free for you and leave it at that.",
+        "Yes is the whole answer."
+      ],
+      "after_line": "Tomorrow evening belongs to the two of you.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "pp_d30",
+      "pattern": "parallel_play",
+      "day": 30,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "keep",
+      "energy": "deep",
+      "prompt_together": "Same room. Same sofa. Last one. Say one sentence each about what’s different in this room tonight. That sentence is the card.",
+      "prompt_solo": "Same room. Same sofa. Last one. Tell them one sentence about what’s different about your evenings now. One sentence is plenty.",
+      "beats_together": [
+        "Same room. Same sofa. Last one.",
+        "Say one sentence each about what’s different in this room tonight.",
+        "That sentence is the card."
+      ],
+      "beats_solo": [
+        "Same room. Same sofa. Last one.",
+        "Tell them one sentence about what’s different about your evenings now.",
+        "One sentence is plenty."
+      ],
+      "after_line": "Same sofa as the first night, and neither of you was anywhere else.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d01",
+      "pattern": "initiation_freeze",
+      "day": 1,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "settle",
+      "energy": "normal",
+      "prompt_together": "Tonight, one room, all quiet. Sit down together for ten minutes with the TV off and no music. Whoever’s reading this sits down first.",
+      "prompt_solo": "Tonight, one room, all quiet. Sit down in the same room as them for ten minutes and leave the TV off.",
+      "beats_together": [
+        "Tonight, one room, all quiet.",
+        "Sit down together for ten minutes with the TV off and no music.",
+        "Whoever’s reading this sits down first."
+      ],
+      "beats_solo": [
+        "Tonight, one room, all quiet.",
+        "Sit down in the same room as them for ten minutes and leave the TV off."
+      ],
+      "after_line": "Ten minutes, one room, and the TV stayed off.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d02",
+      "pattern": "initiation_freeze",
+      "day": 2,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "see",
+      "energy": "normal",
+      "prompt_together": "Before the kitchen light goes off. Name one thing you saw them do today, and say it to their face. The one nearer the door starts.",
+      "prompt_solo": "Before the kitchen light goes off. Tell them one thing you watched them do today, then let it sit there.",
+      "beats_together": [
+        "Before the kitchen light goes off.",
+        "Name one thing you saw them do today, and say it to their face.",
+        "The one nearer the door starts."
+      ],
+      "beats_solo": [
+        "Before the kitchen light goes off.",
+        "Tell them one thing you watched them do today, then let it sit there."
+      ],
+      "after_line": "Something ordinary got noticed, and said out loud.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d03",
+      "pattern": "initiation_freeze",
+      "day": 3,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "make",
+      "energy": "tiny",
+      "prompt_together": "Five minutes. Go to the kitchen together and each make the other one something.",
+      "prompt_solo": "Five minutes. Make them the thing you know they’d have made themselves, and hand it over.",
+      "beats_together": [
+        "Five minutes.",
+        "Go to the kitchen together and each make the other one something."
+      ],
+      "beats_solo": [
+        "Five minutes.",
+        "Make them the thing you know they’d have made themselves, and hand it over."
+      ],
+      "after_line": "Something made in the kitchen, for somebody else.",
+      "duration_min": 5,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d04",
+      "pattern": "initiation_freeze",
+      "day": 4,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "play",
+      "energy": "normal",
+      "prompt_together": "Sofa, both hands free. Play best of nine at rock paper scissors, and the winner picks the music. Throw on three, both of you.",
+      "prompt_solo": "Sofa, both hands free. Challenge them to best of nine at rock paper scissors and make a fuss about winning.",
+      "beats_together": [
+        "Sofa, both hands free.",
+        "Play best of nine at rock paper scissors, and the winner picks the music.",
+        "Throw on three, both of you."
+      ],
+      "beats_solo": [
+        "Sofa, both hands free.",
+        "Challenge them to best of nine at rock paper scissors and make a fuss about winning."
+      ],
+      "after_line": "Nine bad throws decided the music, not whoever spoke up.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d05",
+      "pattern": "initiation_freeze",
+      "day": 5,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "settle",
+      "energy": "tiny",
+      "prompt_together": "Sixty seconds. Whoever’s standing. Turn the big light off, leave one lamp on, and sit in it without talking.",
+      "prompt_solo": "Sixty seconds. Put the big light out, leave one lamp on, and sit down where they are.",
+      "beats_together": [
+        "Sixty seconds. Whoever’s standing.",
+        "Turn the big light off, leave one lamp on, and sit in it without talking."
+      ],
+      "beats_solo": [
+        "Sixty seconds.",
+        "Put the big light out, leave one lamp on, and sit down where they are."
+      ],
+      "after_line": "A minute of lamp light, started by whoever happened to be on their feet.",
+      "duration_min": 5,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d06",
+      "pattern": "initiation_freeze",
+      "day": 6,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "remember",
+      "energy": "normal",
+      "prompt_together": "Kitchen, speaker on. Put on a song from the year you met, one each, and say where you first heard it. Two songs, no vetoes.",
+      "prompt_solo": "Kitchen, speaker on. Put on something from the year you met and see how long they take to notice.",
+      "beats_together": [
+        "Kitchen, speaker on.",
+        "Put on a song from the year you met, one each, and say where you first heard it.",
+        "Two songs, no vetoes."
+      ],
+      "beats_solo": [
+        "Kitchen, speaker on.",
+        "Put on something from the year you met and see how long they take to notice."
+      ],
+      "after_line": "A few minutes of that year, in your own kitchen.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d07",
+      "pattern": "initiation_freeze",
+      "day": 7,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "see",
+      "energy": "deep",
+      "prompt_together": "Sofa, both lamps, no screens. Tell them something you used to like about them that you’d stopped noticing. The reader goes first, then swap. Either of you can pass.",
+      "prompt_solo": "Sofa, both lamps, no screens. Tell them one thing you used to like about them and had stopped mentioning. No build-up. Either of you can pass.",
+      "beats_together": [
+        "Sofa, both lamps, no screens.",
+        "Tell them something you used to like about them that you’d stopped noticing.",
+        "The reader goes first, then swap. Either of you can pass."
+      ],
+      "beats_solo": [
+        "Sofa, both lamps, no screens.",
+        "Tell them one thing you used to like about them and had stopped mentioning.",
+        "No build-up. Either of you can pass."
+      ],
+      "after_line": "One old thing, said out loud again.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d08",
+      "pattern": "initiation_freeze",
+      "day": 8,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "ask",
+      "energy": "normal",
+      "prompt_together": "After dinner, kettle on. Ask what they’d say yes to this week if you suggested it, then only listen. The one who sat down first asks.",
+      "prompt_solo": "After dinner, kettle on. Ask what they’d happily say yes to this week, and don’t follow it with a plan.",
+      "beats_together": [
+        "After dinner, kettle on.",
+        "Ask what they’d say yes to this week if you suggested it, then only listen.",
+        "The one who sat down first asks."
+      ],
+      "beats_solo": [
+        "After dinner, kettle on.",
+        "Ask what they’d happily say yes to this week, and don’t follow it with a plan."
+      ],
+      "after_line": "Now you know one thing this week that would get a yes.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d09",
+      "pattern": "initiation_freeze",
+      "day": 9,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "listen",
+      "energy": "normal",
+      "prompt_together": "Two seats, one lamp. Hear how their day actually went, all the way to the end, before you say a word. Then they ask about yours.",
+      "prompt_solo": "Two seats, one lamp. Ask how their day actually went, and don’t say a word until they’re done.",
+      "beats_together": [
+        "Two seats, one lamp.",
+        "Hear how their day actually went, all the way to the end, before you say a word.",
+        "Then they ask about yours."
+      ],
+      "beats_solo": [
+        "Two seats, one lamp.",
+        "Ask how their day actually went, and don’t say a word until they’re done."
+      ],
+      "after_line": "A whole day told, and nobody cut in.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d10",
+      "pattern": "initiation_freeze",
+      "day": 10,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "imagine",
+      "energy": "deep",
+      "prompt_together": "Lights low, window side. Describe a whole free day for the two of you, out loud, with nothing booked. Both of you. Nobody is planning.",
+      "prompt_solo": "Lights low, window side. Describe a free day you’d want with them, out loud, and ask for nothing. It isn’t a plan. Say it anyway.",
+      "beats_together": [
+        "Lights low, window side.",
+        "Describe a whole free day for the two of you, out loud, with nothing booked.",
+        "Both of you. Nobody is planning."
+      ],
+      "beats_solo": [
+        "Lights low, window side.",
+        "Describe a free day you’d want with them, out loud, and ask for nothing.",
+        "It isn’t a plan. Say it anyway."
+      ],
+      "after_line": "A day you’ll probably never get exactly, described in detail anyway.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d11",
+      "pattern": "initiation_freeze",
+      "day": 11,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "play",
+      "energy": "normal",
+      "prompt_together": "Anywhere. Ten minutes. Say what you think they’d pick before you ask. Three silly questions each. Wrong guesses are the good part.",
+      "prompt_solo": "Anywhere. Ten minutes. Guess their answer out loud before you ask it, three times, and enjoy being wrong.",
+      "beats_together": [
+        "Anywhere. Ten minutes.",
+        "Say what you think they’d pick before you ask. Three silly questions each.",
+        "Wrong guesses are the good part."
+      ],
+      "beats_solo": [
+        "Anywhere. Ten minutes.",
+        "Guess their answer out loud before you ask it, three times, and enjoy being wrong."
+      ],
+      "after_line": "Some guesses were wrong. Those got the laughs.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d12",
+      "pattern": "initiation_freeze",
+      "day": 12,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "remember",
+      "energy": "tiny",
+      "prompt_together": "Five minutes, before bed. Say what you were obsessed with at fourteen, both of you, and don’t defend it.",
+      "prompt_solo": "Five minutes, before bed. Tell them what you were obsessed with at fourteen and let them beat it.",
+      "beats_together": [
+        "Five minutes, before bed.",
+        "Say what you were obsessed with at fourteen, both of you, and don’t defend it."
+      ],
+      "beats_solo": [
+        "Five minutes, before bed.",
+        "Tell them what you were obsessed with at fourteen and let them beat it."
+      ],
+      "after_line": "Fourteen-year-old taste is the easiest thing in the world to own up to.",
+      "duration_min": 5,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d13",
+      "pattern": "initiation_freeze",
+      "day": 13,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "ask",
+      "energy": "normal",
+      "prompt_together": "Kitchen table, no phones. Ask for a story from before you met, then ask one more thing about it. The one who cooked last asks first.",
+      "prompt_solo": "Kitchen table, no phones. Ask for a story from before you met, and then ask one thing more.",
+      "beats_together": [
+        "Kitchen table, no phones.",
+        "Ask for a story from before you met, then ask one more thing about it.",
+        "The one who cooked last asks first."
+      ],
+      "beats_solo": [
+        "Kitchen table, no phones.",
+        "Ask for a story from before you met, and then ask one thing more."
+      ],
+      "after_line": "One more question, and the story went on a bit longer.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d14",
+      "pattern": "initiation_freeze",
+      "day": 14,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "ask",
+      "energy": "deep",
+      "prompt_together": "Late, sofa, one lamp. Ask them for one easy thing this week, like a coffee brought to you. Then they ask you for one.",
+      "prompt_solo": "Late, sofa, one lamp. Ask them for one small thing this week you’re fairly sure they’d agree to. Something you’ve been meaning to ask.",
+      "beats_together": [
+        "Late, sofa, one lamp.",
+        "Ask them for one easy thing this week, like a coffee brought to you.",
+        "Then they ask you for one."
+      ],
+      "beats_solo": [
+        "Late, sofa, one lamp.",
+        "Ask them for one small thing this week you’re fairly sure they’d agree to.",
+        "Something you’ve been meaning to ask."
+      ],
+      "after_line": "Something small, asked for out loud.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d15",
+      "pattern": "initiation_freeze",
+      "day": 15,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "touch",
+      "energy": "normal",
+      "prompt_together": "Sofa, one end free. Pat the seat next to you, say “sit with me,” and stay there through one song. Either of you can pass.",
+      "prompt_solo": "Sofa, one end free. Pat the seat next to you and say “sit with me,” without making a thing of it. Either of you can pass.",
+      "beats_together": [
+        "Sofa, one end free.",
+        "Pat the seat next to you, say “sit with me,” and stay there through one song.",
+        "Either of you can pass."
+      ],
+      "beats_solo": [
+        "Sofa, one end free.",
+        "Pat the seat next to you and say “sit with me,” without making a thing of it.",
+        "Either of you can pass."
+      ],
+      "after_line": "On the first night somebody sat down first. Tonight somebody asked.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d16",
+      "pattern": "initiation_freeze",
+      "day": 16,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "settle",
+      "energy": "normal",
+      "prompt_together": "Window, or the front step. Call them over with “come look at this” and look at it together for a while. Anything counts. A cloud, a cat.",
+      "prompt_solo": "Window, or the front step. Call them over twice tonight for something small out of the window.",
+      "beats_together": [
+        "Window, or the front step.",
+        "Call them over with “come look at this” and look at it together for a while.",
+        "Anything counts. A cloud, a cat."
+      ],
+      "beats_solo": [
+        "Window, or the front step.",
+        "Call them over twice tonight for something small out of the window."
+      ],
+      "after_line": "Something small out of the window, seen by two people instead of one.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d17",
+      "pattern": "initiation_freeze",
+      "day": 17,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "touch",
+      "energy": "normal",
+      "prompt_together": "One song, wherever you are. Put a song on and offer your hand first, before you have time to think about it. Either of you can pass.",
+      "prompt_solo": "One song, wherever you are. Put a song on and hold your hand out before you can talk yourself out of it. Either of you can pass.",
+      "beats_together": [
+        "One song, wherever you are.",
+        "Put a song on and offer your hand first, before you have time to think about it.",
+        "Either of you can pass."
+      ],
+      "beats_solo": [
+        "One song, wherever you are.",
+        "Put a song on and hold your hand out before you can talk yourself out of it.",
+        "Either of you can pass."
+      ],
+      "after_line": "A hand held out for the length of one song.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d18",
+      "pattern": "initiation_freeze",
+      "day": 18,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "make",
+      "energy": "deep",
+      "prompt_together": "Before bed. Whoever heads to bed first warms the other side for ten minutes. Say nothing about it after.",
+      "prompt_solo": "Before bed. Lie on their side of the bed ten minutes so it’s warm when they get in. Say nothing about it after.",
+      "beats_together": [
+        "Before bed.",
+        "Whoever heads to bed first warms the other side for ten minutes.",
+        "Say nothing about it after."
+      ],
+      "beats_solo": [
+        "Before bed.",
+        "Lie on their side of the bed ten minutes so it’s warm when they get in.",
+        "Say nothing about it after."
+      ],
+      "after_line": "A warm bed, and not a word said about it.",
+      "duration_min": 15,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d19",
+      "pattern": "initiation_freeze",
+      "day": 19,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "play",
+      "energy": "tiny",
+      "prompt_together": "One song. Kitchen. Dance badly to it, both of you, starting the second the song does.",
+      "prompt_solo": "One song. Kitchen. Dance badly in the kitchen until they either join in or laugh at you.",
+      "beats_together": [
+        "One song. Kitchen.",
+        "Dance badly to it, both of you, starting the second the song does."
+      ],
+      "beats_solo": [
+        "One song. Kitchen.",
+        "Dance badly in the kitchen until they either join in or laugh at you."
+      ],
+      "after_line": "The song started it, so neither of you had to.",
+      "duration_min": 5,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d20",
+      "pattern": "initiation_freeze",
+      "day": 20,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "touch",
+      "energy": "normal",
+      "prompt_together": "Doorway or kitchen, tonight. Ask for the hug instead of waiting for one, and stay in it for ten seconds. Either of you can pass.",
+      "prompt_solo": "Doorway or kitchen, tonight. Ask them for a hug rather than waiting for one, and hold it ten seconds. Either of you can pass.",
+      "beats_together": [
+        "Doorway or kitchen, tonight.",
+        "Ask for the hug instead of waiting for one, and stay in it for ten seconds.",
+        "Either of you can pass."
+      ],
+      "beats_solo": [
+        "Doorway or kitchen, tonight.",
+        "Ask them for a hug rather than waiting for one, and hold it ten seconds.",
+        "Either of you can pass."
+      ],
+      "after_line": "A hug you asked for is still a hug. It just came sooner.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d21",
+      "pattern": "initiation_freeze",
+      "day": 21,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "leave",
+      "energy": "normal",
+      "prompt_together": "Last thing, before bed. Hide a one-line note each, where the other will find it tomorrow. Neither of you says where.",
+      "prompt_solo": "Last thing, before bed. Leave one line where they’ll find it tomorrow, and don’t mention it.",
+      "beats_together": [
+        "Last thing, before bed.",
+        "Hide a one-line note each, where the other will find it tomorrow.",
+        "Neither of you says where."
+      ],
+      "beats_solo": [
+        "Last thing, before bed.",
+        "Leave one line where they’ll find it tomorrow, and don’t mention it."
+      ],
+      "after_line": "Tomorrow, somewhere in the house, there’s a line waiting.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d22",
+      "pattern": "initiation_freeze",
+      "day": 22,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "settle",
+      "energy": "deep",
+      "prompt_together": "Tonight, same bedtime. Go to bed at the same time and leave both phones in the kitchen. This one was decided for you.",
+      "prompt_solo": "Tonight, same bedtime. Go to bed when they do, and leave your phone in the kitchen. No announcement needed.",
+      "beats_together": [
+        "Tonight, same bedtime.",
+        "Go to bed at the same time and leave both phones in the kitchen.",
+        "This one was decided for you."
+      ],
+      "beats_solo": [
+        "Tonight, same bedtime.",
+        "Go to bed when they do, and leave your phone in the kitchen.",
+        "No announcement needed."
+      ],
+      "after_line": "Phones in the kitchen, and one bedtime.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d23",
+      "pattern": "initiation_freeze",
+      "day": 23,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "keep",
+      "energy": "normal",
+      "prompt_together": "Same time as usual. Do one of this month’s nights again, whichever comes to mind first, and just start it. Whoever moves first has chosen.",
+      "prompt_solo": "Same time as usual. Do one of this month’s nights again tonight, without explaining which or why.",
+      "beats_together": [
+        "Same time as usual.",
+        "Do one of this month’s nights again, whichever comes to mind first, and just start it.",
+        "Whoever moves first has chosen."
+      ],
+      "beats_solo": [
+        "Same time as usual.",
+        "Do one of this month’s nights again tonight, without explaining which or why."
+      ],
+      "after_line": "Of all of them, that’s the one that came back first.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d24",
+      "pattern": "initiation_freeze",
+      "day": 24,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "make",
+      "energy": "normal",
+      "prompt_together": "Any time before bed. Each do one job tonight that the other would have had to do. No telling each other what it was.",
+      "prompt_solo": "Any time before bed. Take one job off them tonight without being asked, and don’t mention it after.",
+      "beats_together": [
+        "Any time before bed.",
+        "Each do one job tonight that the other would have had to do.",
+        "No telling each other what it was."
+      ],
+      "beats_solo": [
+        "Any time before bed.",
+        "Take one job off them tonight without being asked, and don’t mention it after."
+      ],
+      "after_line": "A job gone before anyone got to it.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d25",
+      "pattern": "initiation_freeze",
+      "day": 25,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "imagine",
+      "energy": "deep",
+      "prompt_together": "Two seats, the window. Build one ordinary evening a year from now, out loud, down to what’s for dinner. One line each, back and forth.",
+      "prompt_solo": "Two seats, the window. Describe an ordinary evening a year from now and let them add the next bit. Nothing to settle tonight.",
+      "beats_together": [
+        "Two seats, the window.",
+        "Build one ordinary evening a year from now, out loud, down to what’s for dinner.",
+        "One line each, back and forth."
+      ],
+      "beats_solo": [
+        "Two seats, the window.",
+        "Describe an ordinary evening a year from now and let them add the next bit.",
+        "Nothing to settle tonight."
+      ],
+      "after_line": "An ordinary evening a year off, said out loud.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d26",
+      "pattern": "initiation_freeze",
+      "day": 26,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "see",
+      "energy": "tiny",
+      "prompt_together": "Five minutes, both sitting. Say the thing you’d tell a friend about them, to their face, both of you.",
+      "prompt_solo": "Five minutes, both sitting. Tell them the thing you’d say about them to a friend, word for word.",
+      "beats_together": [
+        "Five minutes, both sitting.",
+        "Say the thing you’d tell a friend about them, to their face, both of you."
+      ],
+      "beats_solo": [
+        "Five minutes, both sitting.",
+        "Tell them the thing you’d say about them to a friend, word for word."
+      ],
+      "after_line": "The good version usually gets told to everybody else first.",
+      "duration_min": 5,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d27",
+      "pattern": "initiation_freeze",
+      "day": 27,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "remember",
+      "energy": "normal",
+      "prompt_together": "Sofa, end of the evening. Name the night this month that felt closest, and say it at the same time. Then why, one each.",
+      "prompt_solo": "Sofa, end of the evening. Tell them which evening this month felt closest, then ask them for theirs.",
+      "beats_together": [
+        "Sofa, end of the evening.",
+        "Name the night this month that felt closest, and say it at the same time.",
+        "Then why, one each."
+      ],
+      "beats_solo": [
+        "Sofa, end of the evening.",
+        "Tell them which evening this month felt closest, then ask them for theirs."
+      ],
+      "after_line": "Now you know which night it was for them.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d28",
+      "pattern": "initiation_freeze",
+      "day": 28,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "play",
+      "energy": "normal",
+      "prompt_together": "Floor or kitchen, ten minutes. Teach them one thing you can do that they can’t, then let them teach you one. The quicker lesson goes first.",
+      "prompt_solo": "Floor or kitchen, ten minutes. Teach them one thing you can do that they can’t, badly and at length.",
+      "beats_together": [
+        "Floor or kitchen, ten minutes.",
+        "Teach them one thing you can do that they can’t, then let them teach you one.",
+        "The quicker lesson goes first."
+      ],
+      "beats_solo": [
+        "Floor or kitchen, ten minutes.",
+        "Teach them one thing you can do that they can’t, badly and at length."
+      ],
+      "after_line": "Somebody went first, and the other one had a go.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d29",
+      "pattern": "initiation_freeze",
+      "day": 29,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "ask",
+      "energy": "normal",
+      "prompt_together": "Tonight, before bed. Invite them to spend tomorrow evening with you, out loud, just the two of you. Whoever’s reading this asks.",
+      "prompt_solo": "Tonight, before bed. Ask them to keep tomorrow evening free for you, and give no reason.",
+      "beats_together": [
+        "Tonight, before bed.",
+        "Invite them to spend tomorrow evening with you, out loud, just the two of you.",
+        "Whoever’s reading this asks."
+      ],
+      "beats_solo": [
+        "Tonight, before bed.",
+        "Ask them to keep tomorrow evening free for you, and give no reason."
+      ],
+      "after_line": "Somebody asked first. Tomorrow evening is taken.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "if_d30",
+      "pattern": "initiation_freeze",
+      "day": 30,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "keep",
+      "energy": "deep",
+      "prompt_together": "Last one. Same seats. Tell each other in one sentence what’s different since the first night. Whoever’s reading this goes first.",
+      "prompt_solo": "Last one. Same seats. Tell them one sentence about what’s different since the first night. One sentence is plenty.",
+      "beats_together": [
+        "Last one. Same seats.",
+        "Tell each other in one sentence what’s different since the first night.",
+        "Whoever’s reading this goes first."
+      ],
+      "beats_solo": [
+        "Last one. Same seats.",
+        "Tell them one sentence about what’s different since the first night.",
+        "One sentence is plenty."
+      ],
+      "after_line": "Same room as the first night, and nobody waited to be asked.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d01",
+      "pattern": "touch_drought",
+      "day": 1,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "settle",
+      "energy": "normal",
+      "prompt_together": "Same room. Screens off. Sit down at the same time tonight and stay put for ten minutes. Yes, a phone told you to. Sit down anyway.",
+      "prompt_solo": "Same room. Screens off. Sit down when they do tonight, and stay put for ten minutes.",
+      "beats_together": [
+        "Same room. Screens off.",
+        "Sit down at the same time tonight and stay put for ten minutes.",
+        "Yes, a phone told you to. Sit down anyway."
+      ],
+      "beats_solo": [
+        "Same room. Screens off.",
+        "Sit down when they do tonight, and stay put for ten minutes."
+      ],
+      "after_line": "You sat down at the same moment, and stayed.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d02",
+      "pattern": "touch_drought",
+      "day": 2,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "see",
+      "energy": "normal",
+      "prompt_together": "Once the kitchen’s quiet. Tell them one thing you saw them do for someone today. Not a thank you.",
+      "prompt_solo": "Once the kitchen’s quiet. Tell them one thing you saw them do today, and what it looked like from across the room.",
+      "beats_together": [
+        "Once the kitchen’s quiet.",
+        "Tell them one thing you saw them do for someone today.",
+        "Not a thank you."
+      ],
+      "beats_solo": [
+        "Once the kitchen’s quiet.",
+        "Tell them one thing you saw them do today, and what it looked like from across the room."
+      ],
+      "after_line": "Being noticed isn’t the same as being thanked.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d03",
+      "pattern": "touch_drought",
+      "day": 3,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "make",
+      "energy": "tiny",
+      "prompt_together": "Five minutes. Kitchen. Make the drink they’d want tonight and bring it over before they think to ask.",
+      "prompt_solo": "Five minutes. Kitchen. Make the small thing they like and leave it beside them without a word.",
+      "beats_together": [
+        "Five minutes. Kitchen.",
+        "Make the drink they’d want tonight and bring it over before they think to ask."
+      ],
+      "beats_solo": [
+        "Five minutes. Kitchen.",
+        "Make the small thing they like and leave it beside them without a word."
+      ],
+      "after_line": "It got there before anyone had to ask.",
+      "duration_min": 5,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d04",
+      "pattern": "touch_drought",
+      "day": 4,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "play",
+      "energy": "normal",
+      "prompt_together": "Standing in the kitchen. Play best of nine at rock paper scissors, and the loser makes the last drink. Nobody minds losing this one.",
+      "prompt_solo": "Standing in the kitchen. Challenge them to best of nine at rock paper scissors, loser makes the drinks.",
+      "beats_together": [
+        "Standing in the kitchen.",
+        "Play best of nine at rock paper scissors, and the loser makes the last drink.",
+        "Nobody minds losing this one."
+      ],
+      "beats_solo": [
+        "Standing in the kitchen.",
+        "Challenge them to best of nine at rock paper scissors, loser makes the drinks."
+      ],
+      "after_line": "Nine throws, and the loser made the drinks.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d05",
+      "pattern": "touch_drought",
+      "day": 5,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "settle",
+      "energy": "tiny",
+      "prompt_together": "Sixty seconds. Turn the big light off, put one lamp on, and sit in it until the room changes.",
+      "prompt_solo": "Sixty seconds. Turn the big light off and put one lamp on, then sit down under it.",
+      "beats_together": [
+        "Sixty seconds.",
+        "Turn the big light off, put one lamp on, and sit in it until the room changes."
+      ],
+      "beats_solo": [
+        "Sixty seconds.",
+        "Turn the big light off and put one lamp on, then sit down under it."
+      ],
+      "after_line": "One lamp on, and the big light off.",
+      "duration_min": 5,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d06",
+      "pattern": "touch_drought",
+      "day": 6,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "remember",
+      "energy": "normal",
+      "prompt_together": "Sofa. One light on. Tell the first kiss story from both sides, and argue about the details. Whoever remembers less goes first.",
+      "prompt_solo": "Sofa. One light on. Bring up the first kiss tonight and let them correct every detail you get wrong.",
+      "beats_together": [
+        "Sofa. One light on.",
+        "Tell the first kiss story from both sides, and argue about the details.",
+        "Whoever remembers less goes first."
+      ],
+      "beats_solo": [
+        "Sofa. One light on.",
+        "Bring up the first kiss tonight and let them correct every detail you get wrong."
+      ],
+      "after_line": "You don’t agree about that night, and you never will.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d07",
+      "pattern": "touch_drought",
+      "day": 7,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "see",
+      "energy": "deep",
+      "prompt_together": "Both sitting down. No screens. Say out loud one thing you love about their face or their laugh. To their face, not sideways. Either of you can pass.",
+      "prompt_solo": "Both sitting down. No screens. Tell them the thing about their face or their laugh you usually keep to yourself.",
+      "beats_together": [
+        "Both sitting down. No screens.",
+        "Say out loud one thing you love about their face or their laugh.",
+        "To their face, not sideways. Either of you can pass."
+      ],
+      "beats_solo": [
+        "Both sitting down. No screens.",
+        "Tell them the thing about their face or their laugh you usually keep to yourself."
+      ],
+      "after_line": "Said to their face, not just thought.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d08",
+      "pattern": "touch_drought",
+      "day": 8,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "ask",
+      "energy": "normal",
+      "prompt_together": "Sofa, lamp on. Ask who in their family gave the best hugs, and what they were like. Yours can wait.",
+      "prompt_solo": "Sofa, lamp on. Ask who in their family gave the best hugs, and just listen.",
+      "beats_together": [
+        "Sofa, lamp on.",
+        "Ask who in their family gave the best hugs, and what they were like.",
+        "Yours can wait."
+      ],
+      "beats_solo": [
+        "Sofa, lamp on.",
+        "Ask who in their family gave the best hugs, and just listen."
+      ],
+      "after_line": "Now you know who gave the best hugs in their family.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d09",
+      "pattern": "touch_drought",
+      "day": 9,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "listen",
+      "energy": "normal",
+      "prompt_together": "Two seats, pulled together. Pull in close and let them tell you about their day, all the way to the end. Swap if there’s time.",
+      "prompt_solo": "Two seats, pulled together. Sit close tonight and let them talk about their day without interrupting once.",
+      "beats_together": [
+        "Two seats, pulled together.",
+        "Pull in close and let them tell you about their day, all the way to the end.",
+        "Swap if there’s time."
+      ],
+      "beats_solo": [
+        "Two seats, pulled together.",
+        "Sit close tonight and let them talk about their day without interrupting once."
+      ],
+      "after_line": "Chairs pulled close, and a whole day told to the end.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d10",
+      "pattern": "touch_drought",
+      "day": 10,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "imagine",
+      "energy": "deep",
+      "prompt_together": "At the window, lights low. Describe a whole free day, hour by hour, with the two of you in it and nothing to do. Nobody books anything.",
+      "prompt_solo": "At the window, lights low. Ask them to walk you through a completely free day, then add yourself to it.",
+      "beats_together": [
+        "At the window, lights low.",
+        "Describe a whole free day, hour by hour, with the two of you in it and nothing to do.",
+        "Nobody books anything."
+      ],
+      "beats_solo": [
+        "At the window, lights low.",
+        "Ask them to walk you through a completely free day, then add yourself to it."
+      ],
+      "after_line": "A whole free day, described, and nothing booked.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d11",
+      "pattern": "touch_drought",
+      "day": 11,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "play",
+      "energy": "normal",
+      "prompt_together": "Anywhere in the house. Guess what would make them comfortable tonight, and keep guessing until you’re right. Then go and get it.",
+      "prompt_solo": "Anywhere in the house. Guess out loud what would make them comfortable right now, then go and get it.",
+      "beats_together": [
+        "Anywhere in the house.",
+        "Guess what would make them comfortable tonight, and keep guessing until you’re right.",
+        "Then go and get it."
+      ],
+      "beats_solo": [
+        "Anywhere in the house.",
+        "Guess out loud what would make them comfortable right now, then go and get it."
+      ],
+      "after_line": "However many guesses it took, you got up and fetched it.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d12",
+      "pattern": "touch_drought",
+      "day": 12,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "remember",
+      "energy": "tiny",
+      "prompt_together": "Five minutes, wherever you are. Tell each other what you were completely obsessed with at fourteen.",
+      "prompt_solo": "Five minutes, wherever you are. Tell them what you were obsessed with at fourteen, then wait for theirs.",
+      "beats_together": [
+        "Five minutes, wherever you are.",
+        "Tell each other what you were completely obsessed with at fourteen."
+      ],
+      "beats_solo": [
+        "Five minutes, wherever you are.",
+        "Tell them what you were obsessed with at fourteen, then wait for theirs."
+      ],
+      "after_line": "Fourteen-year-olds are embarrassing, and you both used to be one.",
+      "duration_min": 5,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d13",
+      "pattern": "touch_drought",
+      "day": 13,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "ask",
+      "energy": "normal",
+      "prompt_together": "Kitchen table, after dinner. Ask for a story from before you met about the best teacher, boss or neighbor they had. Then one more question.",
+      "prompt_solo": "Kitchen table, after dinner. Ask them about the best teacher, boss or neighbor they had before you met.",
+      "beats_together": [
+        "Kitchen table, after dinner.",
+        "Ask for a story from before you met about the best teacher, boss or neighbor they had.",
+        "Then one more question."
+      ],
+      "beats_solo": [
+        "Kitchen table, after dinner.",
+        "Ask them about the best teacher, boss or neighbor they had before you met."
+      ],
+      "after_line": "Now you’ve met someone from before your time.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d14",
+      "pattern": "touch_drought",
+      "day": 14,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "ask",
+      "energy": "deep",
+      "prompt_together": "Late, both sitting down. Ask what they’d like more of in an ordinary week, and just listen. The first answer is the answer.",
+      "prompt_solo": "Late, both sitting down. Find out what they’d want more of in an ordinary week, and let the first answer stand.",
+      "beats_together": [
+        "Late, both sitting down.",
+        "Ask what they’d like more of in an ordinary week, and just listen.",
+        "The first answer is the answer."
+      ],
+      "beats_solo": [
+        "Late, both sitting down.",
+        "Find out what they’d want more of in an ordinary week, and let the first answer stand."
+      ],
+      "after_line": "One thing they’d like more of in an ordinary week, said out loud.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d15",
+      "pattern": "touch_drought",
+      "day": 15,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "touch",
+      "energy": "normal",
+      "prompt_together": "One sofa, one blanket. Sit under the same blanket for whatever’s on, close enough that your shoulders meet. Either of you can pass.",
+      "prompt_solo": "One sofa, one blanket. Take the seat next to theirs tonight and bring one blanket for the two of you. Either of you can pass.",
+      "beats_together": [
+        "One sofa, one blanket.",
+        "Sit under the same blanket for whatever’s on, close enough that your shoulders meet.",
+        "Either of you can pass."
+      ],
+      "beats_solo": [
+        "One sofa, one blanket.",
+        "Take the seat next to theirs tonight and bring one blanket for the two of you.",
+        "Either of you can pass."
+      ],
+      "after_line": "The first night you sat down together. Tonight you sat touching.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d16",
+      "pattern": "touch_drought",
+      "day": 16,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "settle",
+      "energy": "normal",
+      "prompt_together": "Coats on, or the window. Walk to the corner and back, or stand at the window and watch the same thing. Talking optional.",
+      "prompt_solo": "Coats on, or the window. Ask them over to the window or out to the corner, and look at the same thing.",
+      "beats_together": [
+        "Coats on, or the window.",
+        "Walk to the corner and back, or stand at the window and watch the same thing.",
+        "Talking optional."
+      ],
+      "beats_solo": [
+        "Coats on, or the window.",
+        "Ask them over to the window or out to the corner, and look at the same thing."
+      ],
+      "after_line": "You both looked the same way for a while.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d17",
+      "pattern": "touch_drought",
+      "day": 17,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "touch",
+      "energy": "normal",
+      "prompt_together": "One song, lights low. Put one song on and hold their hand until it finishes. Either of you can pass.",
+      "prompt_solo": "One song, lights low. Put a song on tonight and take their hand while it plays. Either of you can pass.",
+      "beats_together": [
+        "One song, lights low.",
+        "Put one song on and hold their hand until it finishes.",
+        "Either of you can pass."
+      ],
+      "beats_solo": [
+        "One song, lights low.",
+        "Put a song on tonight and take their hand while it plays.",
+        "Either of you can pass."
+      ],
+      "after_line": "One song, one hand, start to finish.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d18",
+      "pattern": "touch_drought",
+      "day": 18,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "make",
+      "energy": "deep",
+      "prompt_together": "Tonight’s dinner, one counter. Cook tonight’s dinner side by side, close enough to bump elbows. Toast counts as dinner.",
+      "prompt_solo": "Tonight’s dinner, one counter. Start dinner and ask them to chop something beside you. Toast counts as dinner.",
+      "beats_together": [
+        "Tonight’s dinner, one counter.",
+        "Cook tonight’s dinner side by side, close enough to bump elbows.",
+        "Toast counts as dinner."
+      ],
+      "beats_solo": [
+        "Tonight’s dinner, one counter.",
+        "Start dinner and ask them to chop something beside you.",
+        "Toast counts as dinner."
+      ],
+      "after_line": "Dinner, made at one counter, elbow to elbow.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d19",
+      "pattern": "touch_drought",
+      "day": 19,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "play",
+      "energy": "tiny",
+      "prompt_together": "One song, in the kitchen. Dance badly to it, the whole way through, and don’t get good at it.",
+      "prompt_solo": "One song, in the kitchen. Put a song on while you’re both in the kitchen and dance badly to all of it.",
+      "beats_together": [
+        "One song, in the kitchen.",
+        "Dance badly to it, the whole way through, and don’t get good at it."
+      ],
+      "beats_solo": [
+        "One song, in the kitchen.",
+        "Put a song on while you’re both in the kitchen and dance badly to all of it."
+      ],
+      "after_line": "Nobody was watching, and nobody was any good.",
+      "duration_min": 5,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d20",
+      "pattern": "touch_drought",
+      "day": 20,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "touch",
+      "energy": "normal",
+      "prompt_together": "On the way to bed. Hug for ten slow seconds, and count them so neither of you lets go early. Either of you can pass.",
+      "prompt_solo": "On the way to bed. Let tonight’s goodnight hug run to about ten seconds. Either of you can pass.",
+      "beats_together": [
+        "On the way to bed.",
+        "Hug for ten slow seconds, and count them so neither of you lets go early.",
+        "Either of you can pass."
+      ],
+      "beats_solo": [
+        "On the way to bed.",
+        "Let tonight’s goodnight hug run to about ten seconds.",
+        "Either of you can pass."
+      ],
+      "after_line": "Ten seconds, counted, and nobody let go at nine.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d21",
+      "pattern": "touch_drought",
+      "day": 21,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "leave",
+      "energy": "normal",
+      "prompt_together": "Last thing, before the lights. Set up one thing for their morning, like the coffee ready or a note on the mirror. They find it, not you.",
+      "prompt_solo": "Last thing, before the lights. Set one thing up for their morning tonight and leave it where they’ll walk into it.",
+      "beats_together": [
+        "Last thing, before the lights.",
+        "Set up one thing for their morning, like the coffee ready or a note on the mirror.",
+        "They find it, not you."
+      ],
+      "beats_solo": [
+        "Last thing, before the lights.",
+        "Set one thing up for their morning tonight and leave it where they’ll walk into it."
+      ],
+      "after_line": "Tomorrow they’ll find it half awake.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d22",
+      "pattern": "touch_drought",
+      "day": 22,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "settle",
+      "energy": "deep",
+      "prompt_together": "Same bedtime, both of you. Go to bed at the same time tonight, both phones out of the bedroom. Nothing has to happen.",
+      "prompt_solo": "Same bedtime, both of you. Go to bed when they do tonight, with your phone out of the bedroom.",
+      "beats_together": [
+        "Same bedtime, both of you.",
+        "Go to bed at the same time tonight, both phones out of the bedroom.",
+        "Nothing has to happen."
+      ],
+      "beats_solo": [
+        "Same bedtime, both of you.",
+        "Go to bed when they do tonight, with your phone out of the bedroom."
+      ],
+      "after_line": "The house went quiet at the same moment for both of you.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d23",
+      "pattern": "touch_drought",
+      "day": 23,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "keep",
+      "energy": "normal",
+      "prompt_together": "Same time as usual. Do the night you both liked best this month again tonight. Whoever thinks of it first starts it.",
+      "prompt_solo": "Same time as usual. Bring back the evening this month they seemed to like best, without saying so.",
+      "beats_together": [
+        "Same time as usual.",
+        "Do the night you both liked best this month again tonight.",
+        "Whoever thinks of it first starts it."
+      ],
+      "beats_solo": [
+        "Same time as usual.",
+        "Bring back the evening this month they seemed to like best, without saying so."
+      ],
+      "after_line": "Second time around, nobody needed the instructions.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d24",
+      "pattern": "touch_drought",
+      "day": 24,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "make",
+      "energy": "normal",
+      "prompt_together": "Tonight, at some point. Each do one small thing for the other tonight that nobody asked for, and say nothing. Noticing it later is the good part.",
+      "prompt_solo": "Tonight, at some point. Do one small thing for them tonight that they didn’t ask for, and don’t mention it.",
+      "beats_together": [
+        "Tonight, at some point.",
+        "Each do one small thing for the other tonight that nobody asked for, and say nothing.",
+        "Noticing it later is the good part."
+      ],
+      "beats_solo": [
+        "Tonight, at some point.",
+        "Do one small thing for them tonight that they didn’t ask for, and don’t mention it."
+      ],
+      "after_line": "Something small got done tonight, and nobody took credit.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d25",
+      "pattern": "touch_drought",
+      "day": 25,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "imagine",
+      "energy": "deep",
+      "prompt_together": "At the window, late. Describe one ordinary evening a year from now, out loud, until you can both see it. Ordinary is the point.",
+      "prompt_solo": "At the window, late. Ask them to describe an ordinary evening a year from now, and add the small details.",
+      "beats_together": [
+        "At the window, late.",
+        "Describe one ordinary evening a year from now, out loud, until you can both see it.",
+        "Ordinary is the point."
+      ],
+      "beats_solo": [
+        "At the window, late.",
+        "Ask them to describe an ordinary evening a year from now, and add the small details."
+      ],
+      "after_line": "A year from now is a Tuesday, and you’ve just pictured it.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d26",
+      "pattern": "touch_drought",
+      "day": 26,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "see",
+      "energy": "tiny",
+      "prompt_together": "Sixty seconds, standing up. Say to their face the good thing you said about them to someone else this month.",
+      "prompt_solo": "Sixty seconds, standing up. Repeat to them the good thing you said about them to someone else lately.",
+      "beats_together": [
+        "Sixty seconds, standing up.",
+        "Say to their face the good thing you said about them to someone else this month."
+      ],
+      "beats_solo": [
+        "Sixty seconds, standing up.",
+        "Repeat to them the good thing you said about them to someone else lately."
+      ],
+      "after_line": "They were never going to hear it from the person you said it to.",
+      "duration_min": 5,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d27",
+      "pattern": "touch_drought",
+      "day": 27,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "remember",
+      "energy": "normal",
+      "prompt_together": "Where you usually end up. Say which night this month you sat closest, and whether you noticed at the time. Both of you have one.",
+      "prompt_solo": "Where you usually end up. Tell them the night this month you felt closest, and ask which one was theirs.",
+      "beats_together": [
+        "Where you usually end up.",
+        "Say which night this month you sat closest, and whether you noticed at the time.",
+        "Both of you have one."
+      ],
+      "beats_solo": [
+        "Where you usually end up.",
+        "Tell them the night this month you felt closest, and ask which one was theirs."
+      ],
+      "after_line": "A night each from this month, and why that one.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d28",
+      "pattern": "touch_drought",
+      "day": 28,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "play",
+      "energy": "normal",
+      "prompt_together": "Kitchen floor or the sofa. Teach each other one thing you can do with your hands, like a knot or a card trick. Being bad at it is fine.",
+      "prompt_solo": "Kitchen floor or the sofa. Teach them the one thing you can do with your hands that they can’t.",
+      "beats_together": [
+        "Kitchen floor or the sofa.",
+        "Teach each other one thing you can do with your hands, like a knot or a card trick.",
+        "Being bad at it is fine."
+      ],
+      "beats_solo": [
+        "Kitchen floor or the sofa.",
+        "Teach them the one thing you can do with your hands that they can’t."
+      ],
+      "after_line": "For ten minutes one of you was the expert and the other was hopeless.",
+      "duration_min": 10,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d29",
+      "pattern": "touch_drought",
+      "day": 29,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "ask",
+      "energy": "normal",
+      "prompt_together": "Before the night ends. Ask them to keep tomorrow evening free for you, and don’t say what for. You don’t need a plan yet.",
+      "prompt_solo": "Before the night ends. Ask them to keep tomorrow evening for you, and leave the reason out.",
+      "beats_together": [
+        "Before the night ends.",
+        "Ask them to keep tomorrow evening free for you, and don’t say what for.",
+        "You don’t need a plan yet."
+      ],
+      "beats_solo": [
+        "Before the night ends.",
+        "Ask them to keep tomorrow evening for you, and leave the reason out."
+      ],
+      "after_line": "Tomorrow evening, asked for out loud.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "td_d30",
+      "pattern": "touch_drought",
+      "day": 30,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "keep",
+      "energy": "deep",
+      "prompt_together": "Last one. Both still up. Sit as close as you both like, then say one sentence each about what’s different now. That sentence goes on the card.",
+      "prompt_solo": "Last one. Both still up. Say goodnight properly, then tell them one thing that’s different now. Keep it to one sentence.",
+      "beats_together": [
+        "Last one. Both still up.",
+        "Sit as close as you both like, then say one sentence each about what’s different now.",
+        "That sentence goes on the card."
+      ],
+      "beats_solo": [
+        "Last one. Both still up.",
+        "Say goodnight properly, then tell them one thing that’s different now.",
+        "Keep it to one sentence."
+      ],
+      "after_line": "Night one and tonight, side by side, in your own words.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d01",
+      "pattern": "shift_work",
+      "day": 1,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "settle",
+      "energy": "normal",
+      "prompt_together": "Whenever you’re both home tonight. Sit with them for ten minutes, no TV, no phones, nothing to sort out. Ten minutes is plenty.",
+      "prompt_solo": "Whenever you’re both home tonight. Put everything down and sit near them for ten minutes without starting anything.",
+      "beats_together": [
+        "Whenever you’re both home tonight.",
+        "Sit with them for ten minutes, no TV, no phones, nothing to sort out.",
+        "Ten minutes is plenty."
+      ],
+      "beats_solo": [
+        "Whenever you’re both home tonight.",
+        "Put everything down and sit near them for ten minutes without starting anything."
+      ],
+      "after_line": "Ten quiet minutes in the same room. Rarer than it sounds.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d02",
+      "pattern": "shift_work",
+      "day": 2,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "see",
+      "energy": "normal",
+      "prompt_together": "Any time today, any channel. Name one thing they did today that you noticed, even if you only saw what they left. The small one counts more.",
+      "prompt_solo": "Any time today, any channel. Mention one thing they did today that they think nobody noticed. Small counts.",
+      "beats_together": [
+        "Any time today, any channel.",
+        "Name one thing they did today that you noticed, even if you only saw what they left.",
+        "The small one counts more."
+      ],
+      "beats_solo": [
+        "Any time today, any channel.",
+        "Mention one thing they did today that they think nobody noticed.",
+        "Small counts."
+      ],
+      "after_line": "One small thing, mentioned.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d03",
+      "pattern": "shift_work",
+      "day": 3,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "make",
+      "energy": "tiny",
+      "prompt_together": "Two minutes, before either leaves. Make their drink the way they make it and leave it where they’ll find it.",
+      "prompt_solo": "Two minutes, before either leaves. Make their drink exactly how they make it and put it where they’ll come across it.",
+      "beats_together": [
+        "Two minutes, before either leaves.",
+        "Make their drink the way they make it and leave it where they’ll find it."
+      ],
+      "beats_solo": [
+        "Two minutes, before either leaves.",
+        "Make their drink exactly how they make it and put it where they’ll come across it."
+      ],
+      "after_line": "They’ll know who made it.",
+      "duration_min": 5,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d04",
+      "pattern": "shift_work",
+      "day": 4,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "play",
+      "energy": "normal",
+      "prompt_together": "Any time today, by phone. Send them a photo of the ugliest thing you pass today and let them beat it. Losing is the fun part.",
+      "prompt_solo": "Any time today, by phone. Photograph the worst thing you walk past and send it over with no explanation. See if they send one back.",
+      "beats_together": [
+        "Any time today, by phone.",
+        "Send them a photo of the ugliest thing you pass today and let them beat it.",
+        "Losing is the fun part."
+      ],
+      "beats_solo": [
+        "Any time today, by phone.",
+        "Photograph the worst thing you walk past and send it over with no explanation.",
+        "See if they send one back."
+      ],
+      "after_line": "The ugliest thing on the street, and somebody to show it to.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d05",
+      "pattern": "shift_work",
+      "day": 5,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "settle",
+      "energy": "tiny",
+      "prompt_together": "Sixty seconds, whenever you land. Turn the big light off, put one lamp on, and sit in it without doing anything.",
+      "prompt_solo": "Sixty seconds, whenever you land. Switch the big light off, leave one lamp on, and sit down in it before anything else.",
+      "beats_together": [
+        "Sixty seconds, whenever you land.",
+        "Turn the big light off, put one lamp on, and sit in it without doing anything."
+      ],
+      "beats_solo": [
+        "Sixty seconds, whenever you land.",
+        "Switch the big light off, leave one lamp on, and sit down in it before anything else."
+      ],
+      "after_line": "The day’s over once the big light goes off.",
+      "duration_min": 5,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d06",
+      "pattern": "shift_work",
+      "day": 6,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "remember",
+      "energy": "normal",
+      "prompt_together": "Any time today, both of you. Send them a song from the year you met and play it wherever you are. Different rooms is fine.",
+      "prompt_solo": "Any time today, both of you. Find a song from the year you met, send it over, and play it wherever you are. No explanation needed.",
+      "beats_together": [
+        "Any time today, both of you.",
+        "Send them a song from the year you met and play it wherever you are.",
+        "Different rooms is fine."
+      ],
+      "beats_solo": [
+        "Any time today, both of you.",
+        "Find a song from the year you met, send it over, and play it wherever you are.",
+        "No explanation needed."
+      ],
+      "after_line": "Same song, same three minutes, wherever you both were.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d07",
+      "pattern": "shift_work",
+      "day": 7,
+      "week_theme": "off_duty",
+      "category": "Off duty",
+      "kind": "see",
+      "energy": "deep",
+      "prompt_together": "Tonight, in the same room. Tell them one thing you’d forgotten you liked about them, and say when you last saw it. Whoever’s reading this goes first. Either of you can pass.",
+      "prompt_solo": "Tonight, wherever you are. Let them know the thing you’d forgotten you liked about them, in person or by message. Say when you last saw it. Either of you can pass.",
+      "beats_together": [
+        "Tonight, in the same room.",
+        "Tell them one thing you’d forgotten you liked about them, and say when you last saw it.",
+        "Whoever’s reading this goes first. Either of you can pass."
+      ],
+      "beats_solo": [
+        "Tonight, wherever you are.",
+        "Let them know the thing you’d forgotten you liked about them, in person or by message.",
+        "Say when you last saw it. Either of you can pass."
+      ],
+      "after_line": "Now they know you still see it.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d08",
+      "pattern": "shift_work",
+      "day": 8,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "ask",
+      "energy": "normal",
+      "prompt_together": "In passing, or by phone. Find out which hour of their day is hardest, and just listen to the answer. No fixing.",
+      "prompt_solo": "In passing, or by phone. Ask them to name the worst hour of their day, then let the answer sit there. Nothing to solve.",
+      "beats_together": [
+        "In passing, or by phone.",
+        "Find out which hour of their day is hardest, and just listen to the answer.",
+        "No fixing."
+      ],
+      "beats_solo": [
+        "In passing, or by phone.",
+        "Ask them to name the worst hour of their day, then let the answer sit there.",
+        "Nothing to solve."
+      ],
+      "after_line": "Now somebody else knows which hour it is.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d09",
+      "pattern": "shift_work",
+      "day": 9,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "listen",
+      "energy": "normal",
+      "prompt_together": "Any time today, by voice. Send a three-minute voice note about your day, and just listen to theirs. No need to reply.",
+      "prompt_solo": "Any time today, by voice. Talk into your phone for three minutes about your day and send it over. Ask for three of theirs.",
+      "beats_together": [
+        "Any time today, by voice.",
+        "Send a three-minute voice note about your day, and just listen to theirs.",
+        "No need to reply."
+      ],
+      "beats_solo": [
+        "Any time today, by voice.",
+        "Talk into your phone for three minutes about your day and send it over.",
+        "Ask for three of theirs."
+      ],
+      "after_line": "Three minutes of their voice, and nobody had to answer.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d10",
+      "pattern": "shift_work",
+      "day": 10,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "imagine",
+      "energy": "deep",
+      "prompt_together": "When you’re both home tonight. Describe a day where neither of you had anywhere to be, hour by hour, out loud. Nothing gets booked.",
+      "prompt_solo": "When you’re both home tonight. Ask them to walk you through a day with nothing in it, then add your own hours. Nothing gets booked.",
+      "beats_together": [
+        "When you’re both home tonight.",
+        "Describe a day where neither of you had anywhere to be, hour by hour, out loud.",
+        "Nothing gets booked."
+      ],
+      "beats_solo": [
+        "When you’re both home tonight.",
+        "Ask them to walk you through a day with nothing in it, then add your own hours.",
+        "Nothing gets booked."
+      ],
+      "after_line": "It doesn’t exist yet. You both know what it looks like now.",
+      "duration_min": 15,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d11",
+      "pattern": "shift_work",
+      "day": 11,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "play",
+      "energy": "normal",
+      "prompt_together": "Any time today, by message. Text them a silly question with your guess at their answer, then two more. Wrong guesses are more fun.",
+      "prompt_solo": "Any time today, by message. Message them a silly question with your guess at their answer already attached. Three of them, then stop.",
+      "beats_together": [
+        "Any time today, by message.",
+        "Text them a silly question with your guess at their answer, then two more.",
+        "Wrong guesses are more fun."
+      ],
+      "beats_solo": [
+        "Any time today, by message.",
+        "Message them a silly question with your guess at their answer already attached.",
+        "Three of them, then stop."
+      ],
+      "after_line": "You got some wrong. Those were the good ones.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d12",
+      "pattern": "shift_work",
+      "day": 12,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "remember",
+      "energy": "tiny",
+      "prompt_together": "Thirty seconds, any channel. Tell them what you were obsessed with at fourteen, in a voice note if you can.",
+      "prompt_solo": "Thirty seconds, any channel. Send a thirty-second voice note about what you were obsessed with at fourteen.",
+      "beats_together": [
+        "Thirty seconds, any channel.",
+        "Tell them what you were obsessed with at fourteen, in a voice note if you can."
+      ],
+      "beats_solo": [
+        "Thirty seconds, any channel.",
+        "Send a thirty-second voice note about what you were obsessed with at fourteen."
+      ],
+      "after_line": "Fourteen is still in there somewhere, and they just met it.",
+      "duration_min": 5,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d13",
+      "pattern": "shift_work",
+      "day": 13,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "ask",
+      "energy": "normal",
+      "prompt_together": "Whenever you get five minutes. Ask for a story from before you met that you haven’t heard in a while. Then ask one more thing.",
+      "prompt_solo": "Whenever you get five minutes. Ask about a story from before you met that you only half know. Then let it sit.",
+      "beats_together": [
+        "Whenever you get five minutes.",
+        "Ask for a story from before you met that you haven’t heard in a while.",
+        "Then ask one more thing."
+      ],
+      "beats_solo": [
+        "Whenever you get five minutes.",
+        "Ask about a story from before you met that you only half know.",
+        "Then let it sit."
+      ],
+      "after_line": "Years of them you weren’t there for. Now you have one.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d14",
+      "pattern": "shift_work",
+      "day": 14,
+      "week_theme": "ask",
+      "category": "Ask",
+      "kind": "ask",
+      "energy": "deep",
+      "prompt_together": "Tonight, whenever you both land. Ask what happened this week they never got around to telling you. It can be a small one.",
+      "prompt_solo": "Tonight, or the first chance after. Say the thing you’ve been meaning to say to them, however you can reach them. Small ones count.",
+      "beats_together": [
+        "Tonight, whenever you both land.",
+        "Ask what happened this week they never got around to telling you.",
+        "It can be a small one."
+      ],
+      "beats_solo": [
+        "Tonight, or the first chance after.",
+        "Say the thing you’ve been meaning to say to them, however you can reach them.",
+        "Small ones count."
+      ],
+      "after_line": "Something from this week, told at last.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d15",
+      "pattern": "shift_work",
+      "day": 15,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "touch",
+      "energy": "normal",
+      "prompt_together": "In whatever time you share tonight. Sit down close enough that your shoulders touch, and stay there until the drink’s gone. Either of you can pass.",
+      "prompt_solo": "In whatever time you share tonight. Take the seat next to theirs instead of the one across from it, and stay a while. Either of you can pass.",
+      "beats_together": [
+        "In whatever time you share tonight.",
+        "Sit down close enough that your shoulders touch, and stay there until the drink’s gone.",
+        "Either of you can pass."
+      ],
+      "beats_solo": [
+        "In whatever time you share tonight.",
+        "Take the seat next to theirs instead of the one across from it, and stay a while.",
+        "Either of you can pass."
+      ],
+      "after_line": "Shoulders touching, and nobody had to say anything.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d16",
+      "pattern": "shift_work",
+      "day": 16,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "settle",
+      "energy": "normal",
+      "prompt_together": "Any time you’re both free. Step outside at the same minute, wherever you each are, and stay on the phone for it. Corner of the street counts.",
+      "prompt_solo": "Any time you’re both free. Call them from outside and tell each other what you can see. Two minutes of it is plenty.",
+      "beats_together": [
+        "Any time you’re both free.",
+        "Step outside at the same minute, wherever you each are, and stay on the phone for it.",
+        "Corner of the street counts."
+      ],
+      "beats_solo": [
+        "Any time you’re both free.",
+        "Call them from outside and tell each other what you can see.",
+        "Two minutes of it is plenty."
+      ],
+      "after_line": "Same minute, same sky, different streets. Close enough.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d17",
+      "pattern": "shift_work",
+      "day": 17,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "touch",
+      "energy": "normal",
+      "prompt_together": "Whenever you’re both in. Put one song on and hold their hand for the length of it, doing nothing else. Either of you can pass.",
+      "prompt_solo": "Whenever you’re both in. Play one song and take their hand for the whole of it without explaining why. Either of you can pass.",
+      "beats_together": [
+        "Whenever you’re both in.",
+        "Put one song on and hold their hand for the length of it, doing nothing else.",
+        "Either of you can pass."
+      ],
+      "beats_solo": [
+        "Whenever you’re both in.",
+        "Play one song and take their hand for the whole of it without explaining why.",
+        "Either of you can pass."
+      ],
+      "after_line": "Three minutes, one song, one hand.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d18",
+      "pattern": "shift_work",
+      "day": 18,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "make",
+      "energy": "deep",
+      "prompt_together": "Whoever cooks, cooks for both. Cook one meal for you both, eat it hours apart, and put a silly note on theirs. Same food, different hours.",
+      "prompt_solo": "Whoever cooks, cooks for both. Cook enough for them too, and leave it with a label only they’d get. They’ll find it later.",
+      "beats_together": [
+        "Whoever cooks, cooks for both.",
+        "Cook one meal for you both, eat it hours apart, and put a silly note on theirs.",
+        "Same food, different hours."
+      ],
+      "beats_solo": [
+        "Whoever cooks, cooks for both.",
+        "Cook enough for them too, and leave it with a label only they’d get.",
+        "They’ll find it later."
+      ],
+      "after_line": "You ate the same meal hours apart. It still counts as a table.",
+      "duration_min": 15,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d19",
+      "pattern": "shift_work",
+      "day": 19,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "play",
+      "energy": "tiny",
+      "prompt_together": "One song, in the kitchen. Dance badly to it, and pull them in if they happen to be standing there.",
+      "prompt_solo": "One song, in the kitchen. Put it on and dance badly while whatever needs doing waits.",
+      "beats_together": [
+        "One song, in the kitchen.",
+        "Dance badly to it, and pull them in if they happen to be standing there."
+      ],
+      "beats_solo": [
+        "One song, in the kitchen.",
+        "Put it on and dance badly while whatever needs doing waits."
+      ],
+      "after_line": "One song. The kitchen survived.",
+      "duration_min": 5,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d20",
+      "pattern": "shift_work",
+      "day": 20,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "touch",
+      "energy": "normal",
+      "prompt_together": "At the door, whatever the hour. Give whoever gets in second a ten-second hug before either of you says anything. Either of you can pass.",
+      "prompt_solo": "At the door, whatever the hour. Get to the door first tonight and hold on for ten seconds before you say anything. Either of you can pass.",
+      "beats_together": [
+        "At the door, whatever the hour.",
+        "Give whoever gets in second a ten-second hug before either of you says anything.",
+        "Either of you can pass."
+      ],
+      "beats_solo": [
+        "At the door, whatever the hour.",
+        "Get to the door first tonight and hold on for ten seconds before you say anything.",
+        "Either of you can pass."
+      ],
+      "after_line": "A hug at the door, before anybody said a word.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d21",
+      "pattern": "shift_work",
+      "day": 21,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "leave",
+      "energy": "normal",
+      "prompt_together": "Before you go to sleep. Leave one line where they’ll find it after you’ve gone, about anything but the house. Mirror, kettle, coat pocket.",
+      "prompt_solo": "Before you go to sleep. Hide one friendly line where they’ll come across it tomorrow when you’re not there. Kettle, mirror, coat pocket.",
+      "beats_together": [
+        "Before you go to sleep.",
+        "Leave one line where they’ll find it after you’ve gone, about anything but the house.",
+        "Mirror, kettle, coat pocket."
+      ],
+      "beats_solo": [
+        "Before you go to sleep.",
+        "Hide one friendly line where they’ll come across it tomorrow when you’re not there.",
+        "Kettle, mirror, coat pocket."
+      ],
+      "after_line": "They’ll find it tomorrow, when you’re not there.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d22",
+      "pattern": "shift_work",
+      "day": 22,
+      "week_theme": "touch_time",
+      "category": "Touch & time",
+      "kind": "settle",
+      "energy": "deep",
+      "prompt_together": "Tonight, if the hours line up. Go to bed at the same time with both phones in another room, and let the rest wait. Undone is fine tonight.",
+      "prompt_solo": "Tonight, whatever the hours. Match their lights-out tonight, phone in another room, whatever hour that turns out to be. Undone is fine tonight.",
+      "beats_together": [
+        "Tonight, if the hours line up.",
+        "Go to bed at the same time with both phones in another room, and let the rest wait.",
+        "Undone is fine tonight."
+      ],
+      "beats_solo": [
+        "Tonight, whatever the hours.",
+        "Match their lights-out tonight, phone in another room, whatever hour that turns out to be.",
+        "Undone is fine tonight."
+      ],
+      "after_line": "Same day, same lights out.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d23",
+      "pattern": "shift_work",
+      "day": 23,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "keep",
+      "energy": "normal",
+      "prompt_together": "Tonight, whichever one it was. Pick the night this month that fit your week best, and do it again. Whoever remembers one, starts it.",
+      "prompt_solo": "Tonight, whichever one it was. Repeat the night from this month that fit best, the same way, without saying so.",
+      "beats_together": [
+        "Tonight, whichever one it was.",
+        "Pick the night this month that fit your week best, and do it again.",
+        "Whoever remembers one, starts it."
+      ],
+      "beats_solo": [
+        "Tonight, whichever one it was.",
+        "Repeat the night from this month that fit best, the same way, without saying so."
+      ],
+      "after_line": "Same night, second time, and it still fit.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d24",
+      "pattern": "shift_work",
+      "day": 24,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "make",
+      "energy": "normal",
+      "prompt_together": "Sometime before the day ends. Take one job off their tomorrow without saying so, and let them do the same for you. The dishes count.",
+      "prompt_solo": "Sometime before the day ends. Clear one thing off their tomorrow and never mention that you did it. They’ll notice eventually.",
+      "beats_together": [
+        "Sometime before the day ends.",
+        "Take one job off their tomorrow without saying so, and let them do the same for you.",
+        "The dishes count."
+      ],
+      "beats_solo": [
+        "Sometime before the day ends.",
+        "Clear one thing off their tomorrow and never mention that you did it.",
+        "They’ll notice eventually."
+      ],
+      "after_line": "One less thing on tomorrow, and nobody had to ask.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d25",
+      "pattern": "shift_work",
+      "day": 25,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "imagine",
+      "energy": "deep",
+      "prompt_together": "Tonight, however little time you get. Describe one ordinary evening a year from now, the two of you, down to what’s on. Ordinary, not a vacation.",
+      "prompt_solo": "Tonight, however little time you get. Walk them through an ordinary evening a year from now and let them add to it. Ordinary, not a vacation.",
+      "beats_together": [
+        "Tonight, however little time you get.",
+        "Describe one ordinary evening a year from now, the two of you, down to what’s on.",
+        "Ordinary, not a vacation."
+      ],
+      "beats_solo": [
+        "Tonight, however little time you get.",
+        "Walk them through an ordinary evening a year from now and let them add to it.",
+        "Ordinary, not a vacation."
+      ],
+      "after_line": "A year from now is easier to picture once somebody says it out loud.",
+      "duration_min": 15,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d26",
+      "pattern": "shift_work",
+      "day": 26,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "see",
+      "energy": "tiny",
+      "prompt_together": "One sentence, any channel. Say the good thing you’d tell a friend about them, but say it to them.",
+      "prompt_solo": "One sentence, any channel. Send them the sentence you’d use about them if they were out of the room.",
+      "beats_together": [
+        "One sentence, any channel.",
+        "Say the good thing you’d tell a friend about them, but say it to them."
+      ],
+      "beats_solo": [
+        "One sentence, any channel.",
+        "Send them the sentence you’d use about them if they were out of the room."
+      ],
+      "after_line": "Usually it gets said behind their back. This time they heard it.",
+      "duration_min": 5,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d27",
+      "pattern": "shift_work",
+      "day": 27,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "remember",
+      "energy": "normal",
+      "prompt_together": "Whenever it suits you both. Pick the moment this month you felt closest to them, and say which one it was. It can be any moment, not just these.",
+      "prompt_solo": "Whenever it suits you both. Work out when this month you felt closest to them, and tell them which moment. It can be any moment, not just these.",
+      "beats_together": [
+        "Whenever it suits you both.",
+        "Pick the moment this month you felt closest to them, and say which one it was.",
+        "It can be any moment, not just these."
+      ],
+      "beats_solo": [
+        "Whenever it suits you both.",
+        "Work out when this month you felt closest to them, and tell them which moment.",
+        "It can be any moment, not just these."
+      ],
+      "after_line": "A moment from this month, and it wasn’t on a calendar.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d28",
+      "pattern": "shift_work",
+      "day": 28,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "play",
+      "energy": "normal",
+      "prompt_together": "Tonight, in person or on video. Teach them one thing you can do that they can’t, badly, in under five minutes. Then swap.",
+      "prompt_solo": "Tonight, in person or on video. Show them how to do one thing you can do, then ask for one of theirs. Badly is fine.",
+      "beats_together": [
+        "Tonight, in person or on video.",
+        "Teach them one thing you can do that they can’t, badly, in under five minutes.",
+        "Then swap."
+      ],
+      "beats_solo": [
+        "Tonight, in person or on video.",
+        "Show them how to do one thing you can do, then ask for one of theirs.",
+        "Badly is fine."
+      ],
+      "after_line": "Years in, and they still had something new to show you.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d29",
+      "pattern": "shift_work",
+      "day": 29,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "ask",
+      "energy": "normal",
+      "prompt_together": "Today, as early as you can. Ask them for a slice of tomorrow, and put it in both calendars. Ten minutes is a fair ask.",
+      "prompt_solo": "Today, as early as you can. Claim a slice of tomorrow from them, then put it in the calendar so it survives. Ten minutes is a fair ask.",
+      "beats_together": [
+        "Today, as early as you can.",
+        "Ask them for a slice of tomorrow, and put it in both calendars.",
+        "Ten minutes is a fair ask."
+      ],
+      "beats_solo": [
+        "Today, as early as you can.",
+        "Claim a slice of tomorrow from them, then put it in the calendar so it survives.",
+        "Ten minutes is a fair ask."
+      ],
+      "after_line": "It’s in the calendar now, next to everything else.",
+      "duration_min": 10,
+      "requires_partner_present": false,
+      "opt_out_safe": true
+    },
+    {
+      "id": "sw_d30",
+      "pattern": "shift_work",
+      "day": 30,
+      "week_theme": "build",
+      "category": "Build",
+      "kind": "keep",
+      "energy": "deep",
+      "prompt_together": "In whatever time today has. Say one sentence each about what feels different now, even a little. Night one and night thirty, side by side on the card.",
+      "prompt_solo": "In whatever time today has. Give them one sentence about what’s different now, and ask for one back.",
+      "beats_together": [
+        "In whatever time today has.",
+        "Say one sentence each about what feels different now, even a little.",
+        "Night one and night thirty, side by side on the card."
+      ],
+      "beats_solo": [
+        "In whatever time today has.",
+        "Give them one sentence about what’s different now, and ask for one back."
+      ],
+      "after_line": "It started with ten quiet minutes. It ends with a sentence each.",
+      "duration_min": 15,
+      "requires_partner_present": true,
+      "opt_out_safe": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+/*
+ * Evening canvas. The app renders the dark palette on every platform (see AppTheme), so the page
+ * behind the canvas must be the same colour - otherwise the browser paints white for the moment
+ * before the wasm bundle boots, and again in any overscroll gutter.
+ */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1A1310;
+    color: #FDF3E9;
+    color-scheme: dark;
+}
